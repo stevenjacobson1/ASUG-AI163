@@ -1,8 +1,8 @@
-# Session ID - Session Title
+# AI163 -  Get hands-on to extend Joule and build AI agents 
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This exercise shows how to build a simple custom Joule Agent in Joule Studio that uses multiple Joule Skills along with Document Grounding via AI Core to manage  shipments in the SAP Business Network Global Track and Trace (GTT) syste. The agent can create shipments, get delayed shipment details and even tracking details of existing shipment. It uses Document Grounding to determine the most economically viable shipment carrier based on their rates, source location and destination location while creating a shipment.
 
 ## Overview
 
