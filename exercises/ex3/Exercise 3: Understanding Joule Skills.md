@@ -23,7 +23,7 @@ While they can understand conversation context, their logic is **non-adaptive** 
 ## 🧩 Create a new Joule Skill package
 
 In this section you will create Joule skill, Map Input to the Skill, Add a Send Message and Configure the Output parameters
-- [Exercise 3.0 - Create Joule Skill Package](ex3.0/Exercise 3.0: Create a new Joule Skill Package.md)
+- [Exercise 3.0 - Create Joule Skill Package](ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
 - [Exercise 3.1 - Create Joule Skill](ex3.1/README.md)
 - [Exercise 3.2 - Mapping Input variables of the Action project with Joule Skill Inputs](ex3.2/README.md)
 - [Exercise 3.3 -Add a Send message](ex3.3/README.md)
