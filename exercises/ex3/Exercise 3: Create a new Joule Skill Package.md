@@ -1,6 +1,5 @@
-## Exercise 3: Create a new Joule Skill Package
+## Exercise 3: 💡 Understanding Joule Skills
 
-## 💡 Understanding Joule Skills
 
 **Joule Skills** are modular components within SAP’s conversational AI framework, designed to execute **atomic, predefined operations** within a business context.Each skill performs a single task — such as retrieving data, triggering transactions, or querying systems — based on structured inputs and deterministic logic. Their purpose is to streamline repetitive, rule-based activities by providing a **fast, reliable, and reusable automation mechanism**.
 
@@ -9,7 +8,7 @@ They are tightly integrated with **SAP and third-party APIs** via **SAP Build Ac
 While they can understand conversation context, their logic is **non-adaptive** — flows are static, and outcomes are predictable.
 
 
-![Joule Skills Overview](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex4/Joule%20Skills.jpg)
+![Joule Skills Overview](https://github.com/SAP-samples/teched2025-AD163/blob/main/exercises/ex4/Joule%20Skills.jpg)
 
 
 
