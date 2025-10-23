@@ -1,26 +1,9 @@
-# Level 1 Heading
+## Getting Started - Login to the Tenant
 
-In this exercise, you will...
-
-## Level 2 Heading
-
-After completing these steps you will have....
-
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
-
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
-
-## Summary
-
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+<br> 1: All your users should be created. Please contact the trainers for Login id and Password
+<br> 2: Click on the tenant URL to access the SAP Build Lobby : [Tenant Login](https://ai-agent-beta-build-default-eu12-ad169.authentication.eu12.hana.ondemand.com/login)
+<br> 3: Choose the IDP : 'ashshdga3.accounts400.ondemand.com' to login
+<br> <img width="1697" height="461" alt="image" src="https://github.com/user-attachments/assets/22cb36ec-01ee-4514-bedb-5ed65735ca00" />
+<br> <br> 4: Once the Login is successful, you should be able to see the SAP Build Lobby
+<br> <img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/ccf8908a-9ce1-4716-a39c-7c5417a85545" />
+<br> <br>  - [Next Exercise - > Exercise 1 - Test the Action Project](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex1/README.md)
