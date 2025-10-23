@@ -1,4 +1,4 @@
-# Exercise 1 - Test the Action Project
+# Exercise 1 - Test an Action Project
 
 ## ⚙️ Understand the Action Project
 
