@@ -1,4 +1,4 @@
-## Exercise 4.4 - Configure the Output Parameter
+## Exercise 3.4 - Configure the Output Parameter
 <br>Click on End button in the skill builder. In the ‘Parameters’ tab on the right panel, configure the ‘Skill Outputs’. Add Output with the below details.
 <br>Name: WorkloadOptimizationResults
 <br>Description: WorkloadOptimizationResults
