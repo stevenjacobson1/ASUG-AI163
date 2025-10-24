@@ -77,7 +77,8 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 <img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
 
-Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="30" height="40" alt="image" src="https://github.com/user-attachments/assets/62054449-aa36-4088-93a8-c64c9e4369b1" /> from the left pane by expanding the tree.
+Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="85" height="20" alt="image" src="https://github.com/user-attachments/assets/01bc5446-99c2-4f57-b08f-c7d4bc0804a6" />
+ from the left pane by expanding the tree.
 <img width="1792" height="855" alt="image" src="https://github.com/user-attachments/assets/7255ee94-d4bb-422e-99d3-b71cdb0e0eff" />
 
 
