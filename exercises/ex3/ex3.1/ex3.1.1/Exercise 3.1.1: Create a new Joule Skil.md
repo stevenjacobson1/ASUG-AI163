@@ -61,6 +61,24 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 <img width="1795" height="847" alt="image" src="https://github.com/user-attachments/assets/d8143fc2-7989-4a21-9bc9-35d7a2c30206" />
 <br><br>11: Finally, we will now create an output parameter for the Joule Skill and map the Action output to it. 
+<br>Click anywhere in the Skill Builder's grey area and click on the <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/ee9b22ee-e035-4324-8cda-e9a8c43a4e84" /> button on the right to show the Skill meta data
+<img width="1793" height="591" alt="image" src="https://github.com/user-attachments/assets/9d61f8eb-e8ff-448e-9d35-bb98fce63b3b" />
+
+<br>Click on the Parameters tab to show the Input & Output parameters. 
+<br>Click on the Configure button next to the Skill Outputs 
+<img width="1793" height="685" alt="image" src="https://github.com/user-attachments/assets/908a181a-4418-4d76-b18a-bf2b8d9baec9" />
+<br>Now we will add the Skill Outputs. 
+<br>Click on the Add Input button and add the following input:
+| S.No | Name | Identifier | Description | Type | Required | List |
+|------|------|-------------|--------------|------|-----------|------|
+| 1 | json | json | JSON | Any | ✅ | ✅ |
+
+<img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
+
+Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output from the left pane
+
+
+
 
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
