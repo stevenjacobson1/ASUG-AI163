@@ -67,16 +67,18 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br>Click on the Parameters tab to show the Input & Output parameters. 
 <br>Click on the Configure button next to the Skill Outputs 
 <img width="1793" height="685" alt="image" src="https://github.com/user-attachments/assets/908a181a-4418-4d76-b18a-bf2b8d9baec9" />
-<br>Now we will add the Skill Outputs. 
-<br>Click on the Add Input button and add the following input:
+<br><br>Click on the 'Add Input' button and add the following Inputs with Description. 
+> [!Note]
+  > - All the Identifiers are entered automatically and will be same as ‘Name’ field
+
 | S.No | Name | Identifier | Description | Type | Required | List |
 |------|------|-------------|--------------|------|-----------|------|
 | 1 | json | json | JSON | Any | ✅ | ✅ |
 
 <img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
 
-Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output from the left pane
-
+Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="30" height="40" alt="image" src="https://github.com/user-attachments/assets/62054449-aa36-4088-93a8-c64c9e4369b1" /> from the left pane by expanding the tree.
+<img width="1792" height="855" alt="image" src="https://github.com/user-attachments/assets/7255ee94-d4bb-422e-99d3-b71cdb0e0eff" />
 
 
 
