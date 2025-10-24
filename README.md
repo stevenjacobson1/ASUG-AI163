@@ -48,9 +48,9 @@ His job is to ensure that every delivery — from raw materials to finished good
 
 <br> Below are the exercises. Please follow them in order to begin your hands-on session
 
-- [Exercise 0 - Getting Started - Login to the Tenant](exercises/ex0/) 
-- [Exercise 1 - Test the Action Project](exercises/ex1/) 
-- [Exercise 2 - Create a Private Environment for Testing](exercises/ex2/)
+- [Exercise 0 - Getting Started - Login to the Tenant](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md) 
+- [Exercise 1 - Test the Action Project](exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md) 
+- [Exercise 2 - Create a Private Environment for Testing](exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
 - [Exercise 3 - Copy the Project ‘WarehouseOperationsManagement’](exercises/ex3/)
 - [Exercise 4 -Creation of a new Joule Skill](exercises/ex4/)
     - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4/ex4.1/README.md)
