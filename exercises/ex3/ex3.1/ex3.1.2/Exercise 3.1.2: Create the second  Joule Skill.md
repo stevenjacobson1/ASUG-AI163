@@ -102,8 +102,8 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br><br>Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output according to the table below from the left pane by expanding the tree.
  **Field Name**     | **Mapped Value** | **Path** |
 |--------------------|------------------|------------------------|
-| destinationcity    | arrivalLocationId | getReadquery > result > d > results > arrivalLocationId |
-| gttstatus      | eventStatus_code     | getReadquery > result > d > results > plannedEvents > results > eventStatus_code |
+| destinationcity    | arrivalLocationId | getReadquery > result > d > list - results > arrivalLocationId |
+| gttstatus      | eventStatus_code     | getReadquery > result > d > results > plannedEvents > list - results > eventStatus_code |
 | json           | result           | getReadquery > result |
 <img width="1793" height="860" alt="image" src="https://github.com/user-attachments/assets/13a31447-f19b-4ddb-b7f2-f88b86792574" />
 
