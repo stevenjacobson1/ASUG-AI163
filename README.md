@@ -24,7 +24,7 @@ His job is to ensure that every delivery — from raw materials to finished good
 ### You will buid a goal-driven Joule Agent in Joule Studio that: 
 
 - Understands a natural-language request on the Shipment related activities.
-- Creat, Track & get a list of Delayed shipments.
+- Create, Track & get a list of Delayed shipments.
 - Empower George to do his job more efficently.
 
 #### Agent for Shipping Logistics Activities
