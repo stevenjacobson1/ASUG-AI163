@@ -113,4 +113,4 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br><br>12: Save your Joule Skill. :white_check_mark:
 
 
-- [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
+- [Exercise 3.1.3 - Create the final Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
