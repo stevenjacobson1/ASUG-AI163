@@ -77,7 +77,40 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
 ![2025-10-24_16-16-00 (1)](https://github.com/user-attachments/assets/6c8046e6-716f-40cc-82d5-51df2b4d3ae3)
 
+<br><br>11: Finally, we will now create  output parameters for the Joule Skill and map the Action output to them. 
+<br>Click anywhere in the Skill Builder's grey area and click on the <img width="25" height="25" alt="image" src="https://github.com/user-attachments/assets/ee9b22ee-e035-4324-8cda-e9a8c43a4e84" /> button on the right to show the Skill meta data
+<img width="1791" height="680" alt="image" src="https://github.com/user-attachments/assets/6f0cc684-7825-45d2-8a25-79da1caf5e6c" />
 
-<br><br>11: Save your Joule Skill.
+
+<br>Click on the Parameters tab to show the Input & Output parameters. 
+<br>Click on the Configure button next to the Skill Outputs 
+<img width="1798" height="643" alt="image" src="https://github.com/user-attachments/assets/77841505-85e8-4b58-be6b-c2f9ff2bc5fe" />
+
+<br><br>Click on the 'Add Onput' button and add the following Onputs with Description. 
+> [!Note]
+  > - All the Identifiers are entered automatically and will be same as ‘Name’ field
+
+| **S.No** | **Name**          | **Identifier**     | **Description**     | **Type** | **Required** | **List** |
+|:--------:|-------------------|--------------------|---------------------|-----------|---------------|-----------|
+| 1 | gttstatus        | gttstatus        | Status              | String | ⬜ | ⬜ |
+| 2 | destinationcity  | destinationcity  | Destination City    | String | ⬜ | ⬜ |
+| 3 | json             | json             | JSON                | Any    | ⬜ | ⬜ |
+
+<img width="1798" height="813" alt="image" src="https://github.com/user-attachments/assets/2e5aa012-d52c-4e1f-9606-eb6128aa5039" />
+
+
+<br><br>Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output according to the table below from the left pane by expanding the tree.
+ **Field Name**     | **Mapped Value** | **Path** |
+|--------------------|------------------|------------------------|
+| destinationcity    | arrivalLocationId | getReadquery > result > d > results > arrivalLocationId |
+| gttstatus      | eventStatus_code     | getReadquery > result > d > results > plannedEvents > results > eventStatus_code |
+| json           | result           | getReadquery > result |
+<img width="1793" height="860" alt="image" src="https://github.com/user-attachments/assets/13a31447-f19b-4ddb-b7f2-f88b86792574" />
+
+
+
+
+<br><br>12: Save your Joule Skill. :white_check_mark:
+
 
 - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
