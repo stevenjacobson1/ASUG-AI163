@@ -57,13 +57,27 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 
 
-<br><br>10: Once the action call is added, click on it so that a right panel opens for adding Input and Output parameters & the Destination variable
-<img width="1794" height="757" alt="image" src="https://github.com/user-attachments/assets/aaf37d72-a657-409d-b5c7-dc3bb757b73f" />
+<br><br>7: Once the action call is added, click on it so that a right panel opens for mapping Input parameters & creating the Destination variable to read data from the GTT system
+<img width="1788" height="621" alt="image" src="https://github.com/user-attachments/assets/31ebab5c-47fb-47fa-b565-2488f0f553df" />
 
-<br><br>12: Create a ‘Destination Variable’
-<br>Destination variable name : PostToGTT
-<br>Description: Destination to create shipment in the GTT System
-> [!Note]
-  > - Once created, remember to select the destination name from the dropdown and Save your project.
 
-<br>![2025-10-24_11-27-50 (1)](https://github.com/user-attachments/assets/2574b83d-12d3-4dbd-be2d-3f50162b3d98)
+
+<br><br>8: Since we are again reading shipment from the GTT system, we will reuse the same Destination variable 'GetFromGTT'
+
+
+<img width="1794" height="738" alt="image" src="https://github.com/user-attachments/assets/c81d074b-f3cf-4d89-874d-92fc068b65b3" />
+
+
+<br><br>9: We will now add filter criteria as input to Action to fetch the delayed shipments. Click on the Action and select the Input tab on the right pane. 
+<br>Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
+<img width="1790" height="679" alt="image" src="https://github.com/user-attachments/assets/ad14784f-f1b7-4e04-9ff7-075224d5de99" />
+
+
+<br><br> Input "ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")" in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
+<img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
+![2025-10-24_16-16-00 (1)](https://github.com/user-attachments/assets/6c8046e6-716f-40cc-82d5-51df2b4d3ae3)
+
+
+<br><br>11: Save your Joule Skill.
+
+- [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
