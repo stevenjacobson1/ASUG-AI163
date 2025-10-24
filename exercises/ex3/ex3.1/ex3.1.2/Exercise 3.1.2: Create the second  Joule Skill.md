@@ -73,7 +73,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1790" height="679" alt="image" src="https://github.com/user-attachments/assets/ad14784f-f1b7-4e04-9ff7-075224d5de99" />
 
 
-<br><br> Input "ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")" in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
+<br><br> Input `ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")` in the formual editor. Replace [Tracking ID] with the trackingID Input from the left pane by double clicking on it and click on 'Apply'
 <img width="1791" height="835" alt="image" src="https://github.com/user-attachments/assets/3bb0b34c-9e2c-4625-8199-32184c776661" />
 ![2025-10-24_16-16-00 (1)](https://github.com/user-attachments/assets/6c8046e6-716f-40cc-82d5-51df2b4d3ae3)
 
