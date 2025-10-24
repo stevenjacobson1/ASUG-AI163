@@ -1,7 +1,7 @@
 ## Exercise 3.1.2 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create the second Joule Skill
 We will now create our second Joule Skill in a similar way as the previous section. 
 
-### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Create Shipment 
+### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> Second Joule Skill: Track Shipment 
 This Joule Skill is used to create a shipment in the SAP Business Networks GTT System
 <br><br>  1: Click on Create button and choose ‘Joule Skill’
 <img width="1785" height="799" alt="image" src="https://github.com/user-attachments/assets/25e74b71-36b3-4310-8afd-dd0af40f102a" />
