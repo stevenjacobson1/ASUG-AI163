@@ -13,54 +13,53 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1785" height="799" alt="image" src="https://github.com/user-attachments/assets/25e74b71-36b3-4310-8afd-dd0af40f102a" />
 
 <br><br> 2: Enter the name and Description 
-<br> - Name: Create Shipment
-<br> - Description: A skill to create shipment or update shipment with ONLY carrier name.During update only carrier is required.
+<br> - Name: Get Delayed Shipments
+<br> - Description: A skill to get all delayed shipments from the GTT system.
 <br> Click on ‘Create’ button
 > [!Note]
   > - The Identifier is autopoulated based on the Skill name
-<img width="1794" height="670" alt="image" src="https://github.com/user-attachments/assets/f973ea8e-fbf4-4cb6-a84a-5adbbf5fc0b8" />
+<img width="1789" height="831" alt="image" src="https://github.com/user-attachments/assets/d810d3d8-e561-4b0e-8392-c8082bfff11a" />
+
 
 <br><br> 3: Once the Joule skill is created, you are taken to the skill builder
-<br> 4: Click on the <img width="18" height="20" alt="image" src="https://github.com/user-attachments/assets/7a9ecb53-0c74-4fcc-a7de-3deec6113ca9" /> button on the right side of the screen to open the skill input and output parameters
-<img width="1790" height="643" alt="image" src="https://github.com/user-attachments/assets/85646164-311a-47d7-b509-897c005d2db7" />
 
-<br><br>5: Click on the ‘Parameters’ tab and expand the section, ‘Skill Inputs’. Click on ‘Configure’ button to configure the skill inputs.
-<img width="1787" height="643" alt="image" src="https://github.com/user-attachments/assets/65d0c9ab-11cd-4e34-81ce-b568501c2313" />
+<br>7: In the skill builder, click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/ebaa8b75-7024-4b4e-bedd-56ee58638b6e" /> button to add the action that was tested earlier
+<img width="1791" height="666" alt="image" src="https://github.com/user-attachments/assets/35cb80fa-077a-4931-9c2e-da86eaab7dea" />
 
-<br><br>6: Click on the 'Add Input' button and add the following Inputs with Description. 
-> [!Note]
-  > - All the Identifiers are entered automatically and will be same as ‘Name’ field
 
-| **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
-|:--------:|----------------|----------------|--------------------------|---------------|
-| 1 | shipmentid     | shipmentid     | Shipment ID              | ✅ |
-| 2 | srclocation    | srclocation    | Source Location          | ✅ |
-| 3 | destlocation   | destlocation   | Destination Location     | ✅ |
-| 4 | datetime       | datetime       | Pick up Date             | ✅ |
-| 5 | carrier        | carrier        | carrierid                | ⬜ (not required) |
+<br><br>4: Choose the option, ‘Call Action’
+<img width="1799" height="837" alt="image" src="https://github.com/user-attachments/assets/503f93b3-c586-4bd5-a5f4-d22d30572545" />
 
-<br><br> Once all inputs are added, click on ‘Apply’ button.
-<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
 
-<br>7: In the skill builder, click on the ‘+’ button to add the action that was tested earlier
-<img width="1790" height="673" alt="image" src="https://github.com/user-attachments/assets/3c6105a3-e43c-4229-b900-d4c6f1299c41" />
+<br><br>5: Click on the 'Browse All Actions" option
+<img width="1799" height="852" alt="image" src="https://github.com/user-attachments/assets/da42efb2-69d2-48a9-9b94-b93d40a5546c" />
 
-<br><br>8: Choose the option, ‘Call Action’
-<img width="1789" height="810" alt="image" src="https://github.com/user-attachments/assets/ef020b5b-54b3-499b-b9b0-6fab00db9f53" />
 
-<br><br>9: Click on the 'Browse All Actions" option
-<img width="1775" height="779" alt="image" src="https://github.com/user-attachments/assets/18426b2b-9ab1-4729-bb96-912c67fb9be1" />
+<br><br>6: In the search bar, enter 'GTTReadService' and press Enter to search for the Action and click on the Add button
+<img width="1797" height="851" alt="image" src="https://github.com/user-attachments/assets/370ac218-fa2b-451a-8e9c-6f291d90de17" />
 
-<br><br>10: In the search bar, enter 'createshipment' and press Enter to search for the Action to create a shipment and click on the Add button
-<img width="1793" height="915" alt="image" src="https://github.com/user-attachments/assets/9f72cb4b-4b50-457b-960a-b20dabb00093" />
 
-<br><br>11: Once the action call is added, click on it so that a right panel opens for adding Input and Output parameters & the Destination variable
-<img width="1794" height="757" alt="image" src="https://github.com/user-attachments/assets/aaf37d72-a657-409d-b5c7-dc3bb757b73f" />
+<br><br>7: Once the action call is added, click on it so that a right panel opens for mapping Input parameters & creating the Destination variable to read data from the GTT system
+<img width="1794" height="677" alt="image" src="https://github.com/user-attachments/assets/54b89c1e-a5dd-4009-a1be-5dfd8b7c3139" />
 
-<br><br>12: Create a ‘Destination Variable’
-<br>Destination variable name : PostToGTT
-<br>Description: Destination to create shipment in the GTT System
+
+<br><br>8: Create a ‘Destination Variable’
+<br>Destination variable name : GetFromGTT
+<br>Description: Destination to fetch data from the GTT System
 > [!Note]
   > - Once created, remember to select the destination name from the dropdown and Save your project.
 
-<br>![2025-10-24_11-27-50 (1)](https://github.com/user-attachments/assets/2574b83d-12d3-4dbd-be2d-3f50162b3d98)
+![2025-10-24_14-44-26 (1)](https://github.com/user-attachments/assets/26c4de22-31a6-4347-ae63-0dd684465aab)
+
+<br><br>9: We will now add filter criteria as input to Action to fetch the delayed shipments. Click on the Action and select the Input tab on the right pane. 
+<img width="1781" height="724" alt="image" src="https://github.com/user-attachments/assets/3a3e7c86-a4a5-465e-9a80-28446c03dde2" />
+
+<br><br>10: Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
+<img width="1790" height="850" alt="image" src="https://github.com/user-attachments/assets/79f00018-3f51-49ed-b404-042910d48a65" />
+
+<br><br> input "ConcatenateStrings(["delayStatus eq ", true, ""], "")" in the formual editor and click on 'Apply'
+<img width="1795" height="847" alt="image" src="https://github.com/user-attachments/assets/d8143fc2-7989-4a21-9bc9-35d7a2c30206" />
+
+<br><br>11: Save your Joule Skill.
+
+- [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
