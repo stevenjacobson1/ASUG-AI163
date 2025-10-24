@@ -20,4 +20,4 @@
 <img width="1790" height="835" alt="image" src="https://github.com/user-attachments/assets/53298342-4a0b-455f-9774-1ae527353515" />
 
 
-<br> <br>  - [Next Exercise - > Exercise 4.2 - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.2/README.md)
+<br> <br>  - [Next Exercise - > Exercise 3.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/Exercise%203.1%20-%20Create%20a%20new%20Joule%20Skill.md)
