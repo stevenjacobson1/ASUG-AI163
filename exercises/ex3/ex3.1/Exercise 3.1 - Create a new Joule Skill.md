@@ -24,7 +24,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <br><br>5: Click on the ‘Parameters’ tab and expand the section, ‘Skill Inputs’. Click on ‘Configure’ button to configure the skill inputs.
 <img width="1787" height="643" alt="image" src="https://github.com/user-attachments/assets/65d0c9ab-11cd-4e34-81ce-b568501c2313" />
 
-<br><br>6: Add the following Inputs with Description. 
+<br><br>6: Click on the 'Add Input' button and add the following Inputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
 
@@ -36,10 +36,12 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 | 4 | datetime       | datetime       | Pick up Date             | ✅ |
 | 5 | carrier        | carrier        | carrierid                | ⬜ (not required) |
 
-<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/aecfc36a-583e-4685-a273-1a492bc7186f" />
+<img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/77342fec-ac78-4144-8eee-52151e1a0d1b" />
 
 
-<br><br> Once all inputs are added, click on ‘Save’ button.
+
+<br><br> Once all inputs are added, click on ‘Apply’ button.
+
 <br>7: In the skill builder, click on the ‘+’ button to add the action that was tested in Exercise 1
 <br><br><img width="940" height="248" alt="image" src="https://github.com/user-attachments/assets/b56990ed-b7d8-4430-a140-29555acc73ad" />
 <br><br>8: Choose the option, ‘Call Action’
