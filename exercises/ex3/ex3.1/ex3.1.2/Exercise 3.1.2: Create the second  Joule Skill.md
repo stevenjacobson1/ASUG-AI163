@@ -1,8 +1,5 @@
 ## Exercise 3.1.2 - <img width="35" height="44" alt="image" src="https://github.com/user-attachments/assets/601b4116-ece9-40ff-8be0-759943cae4ab" /> Create the second Joule Skill
-We will now create our Joule Skills within the Joule Skill Package.
-<br><br>For this hands-on, we will be creating a total of: 
-  <br> - 3 Joule Skills.
-  <br> - 1 Joule Agent which uses these skills as **tools** along with Document Grounding. 
+We will now create our second Joule Skill in a similar way as the previous section. 
 
 ### <img width="15" height="25" alt="image" src="https://github.com/user-attachments/assets/4492da9e-a2d9-49d9-a30e-855f7c3663a0" /> First Joule Skill: Create Shipment 
 This Joule Skill is used to create a shipment in the SAP Business Networks GTT System
