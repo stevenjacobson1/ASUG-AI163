@@ -1,16 +1,18 @@
 ## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
 <br> 1: Select the Action in the Skill Builder and click on Inputs tab to map the skill inputs to action call inputs. Click on the field, ‘planning_horizon_from’. The skill content list will open on the left. As the skill inputs are of type, ‘String’ and some of the Action inputs are of type, Date-time, you have to click on ‘Apply a   formula’ in order to map
 <br><br><img width="939" height="465" alt="image" src="https://github.com/user-attachments/assets/4fdea1c3-f6b7-437b-8ebe-25a31a107552" />
-| **Field Name**             | **Mapped Path**              | **Data Type**   |
-|-----------------------------|------------------------------|-----------------|
-| actualBusinessTimestamp     | Skill Inputs > datetime      | datetime        |
-| altKey                      | Expression                   | Expression      |
-| arrivalLocationId           | Skill Inputs > destlocation  | Text            |
-| departureLocationId         | Skill Inputs > srclocation   | Text            |
-| plannedArrivalDateTime      | (Static value: 2025-10-10T00:00:00+08:00) | datetime |
-| plannedDepartureDateTime    | Skill Inputs > datetime      | datetime        |
-| serviceAgentLbnId           | Skill Inputs > carrier       | Text            |
-| shipmentNo                  | Skill Inputs > shipmentid    | Text            |
+
+| Field Name              | Mapped Path                 | Data Type |
+|--------------------------|-----------------------------|-----------|
+| actualBusinessTimestamp  | Skill Inputs > datetime     | datetime  |
+| altKey                   | Expression                  | Expression|
+| arrivalLocationId        | Skill Inputs > destlocation | Text      |
+| departureLocationId      | Skill Inputs > srclocation  | Text      |
+| plannedArrivalDateTime   | Static: 2025-12-21T00:00:00+08:00 | datetime |
+| plannedDepartureDateTime | Skill Inputs > datetime     | datetime  |
+| serviceAgentLbnId        | Skill Inputs > carrier      | Text      |
+| shipmentNo               | Skill Inputs > shipmentid   | Text      |
+
 <br><br><img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/22cbc3bb-e60d-4d51-97d3-7262078e5482" />
 
 <br><br>Here, type 'PlanningFrom' in the formula editor 
