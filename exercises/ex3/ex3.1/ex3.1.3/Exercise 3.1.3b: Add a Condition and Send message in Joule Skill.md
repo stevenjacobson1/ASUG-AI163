@@ -1,60 +1,57 @@
 ## Exercise 3.1.3b - Add a Condition and Send message in Joule Skill
-<br> 1: Below the Action call, click on the ‘+’ button and choose Send Response. Click on ‘Send message’
-<br><br> <img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/297092e9-0f24-493a-8048-090cf9c1b817" />
-<br><br>2: On the right, change the step name as ‘Simulate Workload Message’ and save.
-<br><br>3: Click on ‘Open message Editor’
-<br><br><img width="940" height="788" alt="image" src="https://github.com/user-attachments/assets/a260c5e9-5868-4e7d-8a37-2031d540f5e1" />
-<br><br>4: In the ‘Edit user Interaction’ pop-up window, choose the ‘Message Type’ as ‘List’.
-<br> - Enter the Title as ‘Simulated Optimization Results’ 
-<br> - Enter the Text as ‘Workforce Optimization Results’
-<br><br>5: In the ‘List Item’ section, click on ‘Edit List Item’
-<br><br><img width="939" height="423" alt="image" src="https://github.com/user-attachments/assets/28bab2d7-47b1-4adb-b981-3bf72b53774c" />
-<br><br>6: In the field, ‘List Content’, click on the ‘<>’ button to do the data mapping. Expand the Joule Action result section and map the ‘value’ 
-<br><br><img width="940" height="455" alt="image" src="https://github.com/user-attachments/assets/c453aeb1-b250-4606-b437-9be2be8d9899" />
+<br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
+<br> We will be creating 2 "Send Message" steps, one for each of the branches mentioned above. 
 
-<br><br>7: In the Title field, click on the ‘<>’ button and map the data, Joule Action result->value->Resource
-<br><br><img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/c8ba3f90-5790-4bef-9ff3-c90f5622de81" />
-<br><br>8: In the ‘Text’ field, click on the ‘<>’ button and map the data, Joule Action result->value->status_text
-<br><br><img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/b9aab3ba-7398-4247-bb73-e39b8918db0c" />
-<br><br>9: In the Status field, click on the ‘<>’ button and map the data, Joule Action result->value->status
-<br><br><img width="940" height="462" alt="image" src="https://github.com/user-attachments/assets/4dd20600-2640-4f1b-b218-735498aea174" />
-
-<br><br>10: In the ‘Attributes’ section, click on ‘Add Attribute’ to add 4 attributes as below
-<br>Title: Optimization Details
+<br>In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
 <br>
-<table>
-  <tr>
-    <th>Type</th>
-    <th>Label</th>
-    <th>Value (Click on the <> button)</th>
-   </tr>
-  <tr>
-    <td>Text</td>
-    <td>Resource</td>
-    <td>Joule.action.results->value->resource</td>
-   </tr>
-  <tr>
-    <td>Text</td>
-    <td>Status</td>
-    <td>Joule.action.results->value->status</td>
-    
-  </tr>
-  <tr>
-    <td>Text</td>
-    <td>Activity area</td>
-    <td>Joule.action.results->value->activity_area</td>
-    
-  </tr>
-  <tr>
-    <td>Text</td>
-    <td>Resource Type</td>
-    <td>Joule.action.results->value->resource_type</td>
-    
-  </tr>
-</table>
 
-<br><br>Click on Save button
-<br><br>Once the details are added the ‘Preview’ should be seen in the right panel
-<br><br><img width="939" height="522" alt="image" src="https://github.com/user-attachments/assets/4b3f86a9-cd84-4926-a175-00626e4d7b22" />
-<br>Click on back button on top left to return to the skill builder.
+![2025-10-27_18-00-19 (1)](https://github.com/user-attachments/assets/a0659e7d-6fbe-4fc6-ac0c-81f6486d4c2a)
+
+Click on the Send Message step on branch 1 and name it as 'Create Shipment Message'.
+<br>
+<img width="1786" height="699" alt="image" src="https://github.com/user-attachments/assets/1adda104-bdfb-4fc8-8ea1-e53135dbb9b4" />
+<br>
+Repeat this for Branch 2 and name it as 'Shipment Update Message'.
+<img width="1796" height="658" alt="image" src="https://github.com/user-attachments/assets/7344e2bd-daa6-419a-9183-d9d4b18679a7" />
+
+<br>Click on the 'Create Shipment Message' in Branch 1 and click on the 'Open Message Editor" button.
+
+<br>In the Message Configuration section fill up the details from the table below. 
+
+| Field Name              | Value                |
+|--------------------------|-----------------------------|
+| Message Type | Illustrated Message    |
+| Title                   | 'Success'|
+| Text        | 'Shipment Id ${context.startEvent.shipmentid} created successfully in GTT'  |
+| Illustration      | Success High Five  |
+
+<img width="1549" height="844" alt="image" src="https://github.com/user-attachments/assets/609ba0dc-3449-4617-9d26-aa85afef4e2b" />
+
+<br>In the Action Button section, Click on Add Button and enter the values from the table below:
+| Field Name              | Value                |
+|--------------------------|-----------------------------|
+| Title                   | 'View Shipment'|
+| url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
+
+<br>Your Send Message step should look like the image below. You will also notice a preview of what you have designed on the left side. 
+<img width="1550" height="665" alt="image" src="https://github.com/user-attachments/assets/2b9295c1-c0f0-4e0e-b2b1-e61b20d4a00c" />
+<br>
+<br>We will now replicate these steps for the 'Shipment Update Message' in Branch 2 witha a change in few fields as per the table below:
+| Field Name              | Value                |
+|--------------------------|-----------------------------|
+| Message Type | Illustrated Message    |
+| Title                   | 'Carrier Updated'|
+| Text        | 'Shipment Id ${context.startEvent.shipmentid} created successfully in GTT'  |
+| Illustration      | Success Check Mark  |
+
+<br>In the Action Button section, Click on Add Button and enter the values from the table below:
+| Field Name              | Value                |
+|--------------------------|-----------------------------|
+| Title                   | 'View Shipment'|
+| url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
+
+<img width="1563" height="856" alt="image" src="https://github.com/user-attachments/assets/b85f17a6-3a1c-4c63-b17e-149ab3adb13e" />
+
+
+
 <br> <br>  - [Next Exercise - > Exercise 4.4 - Configure the Output Parameter](https://github.com/SAP-samples/teched2025-AD169/tree/6d4d185a4dc5c192ce2f65d6a286b84d98ff7772/exercises/ex4/README.md/ex4.4/README.md)
