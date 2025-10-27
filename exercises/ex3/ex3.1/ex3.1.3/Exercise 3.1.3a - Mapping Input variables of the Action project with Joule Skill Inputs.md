@@ -32,24 +32,6 @@ On the Condition step, click on <img width="20" height="20" alt="image" src="htt
 the button to expand the condition and view the condition branches. i.e. Branch 1 and Branch 2
 <img width="1531" height="651" alt="image" src="https://github.com/user-attachments/assets/f1ed4f7f-ef72-4dc1-8c2e-f1a085062163" />
 
-### Create a 'Send Message' step
-
-<br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
-<br> We will be creating 2 "Send Message" steps, one for each of the branches mentioned above. 
-
-<br>In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
-<br>
-![2025-10-27_18-00-19 (1)](https://github.com/user-attachments/assets/a0659e7d-6fbe-4fc6-ac0c-81f6486d4c2a)
-
-Click on the Send Message step on branch 1 and name it as 'Create Shipment Message'.
-<br>
-<img width="1786" height="699" alt="image" src="https://github.com/user-attachments/assets/1adda104-bdfb-4fc8-8ea1-e53135dbb9b4" />
-<br>
-Repeat this for Branch 2 and name it as 'Shipment Update Message'.
-<img width="1796" height="658" alt="image" src="https://github.com/user-attachments/assets/7344e2bd-daa6-419a-9183-d9d4b18679a7" />
-
-
-
 
 
 <br> <br>  - [Next Exercise - > Exercise 3.1.3b - Add a Condition and Send Message in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
