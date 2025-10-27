@@ -49,23 +49,21 @@ His job is to ensure that every delivery — from raw materials to finished good
 - [Exercise 0 - Getting Started - Login to the Tenant](exercises/ex0/Getting%20Started%20-%20Login%20to%20the%20Tenant.md) 
 - [Exercise 1 - Test the Action Project](exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md) 
 - [Exercise 2 - Create a Private Environment for Testing](exercises/ex2/Exercise%202%20-%20Create%20a%20Private%20Environment%20for%20Testing.md)
-- [Exercise 3 - Copy the Project ‘WarehouseOperationsManagement’](exercises/ex3/)
-- [Exercise 4 -Creation of a new Joule Skill](exercises/ex4/)
-    - [Exercise 4.1 - Exercise 4 Sub Exercise 1 Description](exercises/ex4/ex4.1/README.md)
-    - [Exercise 4.2 - Exercise 4 Sub Exercise 2 Description](exercises/ex4/ex4.2/README.md)
-    - [Exercise 4.3 - Exercise 4 Sub Exercise 3 Description](exercises/ex4/ex4.3/README.md)
-    - [Exercise 4.4 - Exercise 4 Sub Exercise 4 Description](exercises/ex4/ex4.4/README.md)
+- [Exercise 3 - Understanding Joule Skills](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/Exercise%203%3A%20Understanding%20Joule%20Skills.md)
+- [Exercise 3.0 -Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
+    - [Exercise 3.1.1 - Create a new Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.1/Exercise%203.1.1%3A%20Create%20a%20new%20Joule%20Skil.md)
+    - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
+    - [Exercise 3.1.3 - Create your last Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3%20-%20Create%20final%20Joule%20Skill.md)
+    - [Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3a%20-%20Mapping%20Input%20variables%20of%20the%20Action%20project%20with%20Joule%20Skill%20Inputs.md)
+    - [Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+
      
-- [Exercise 5 -Creation of an Agent](exercises/ex5/)
-- [Exercise 6 -Creation of an Agent](exercises/ex6/)
-- [Exercise 7 -Additional Section](exercises/ex7/)
-    - [Exercise 7.1 - Exercise 7 Sub Exercise 1 Description](exercises/ex7/README.md)
-    - [Exercise 7.2 - Exercise 7 Sub Exercise 2 Description](exercises/ex7/README.md)
+- [Exercise 4 -Creation of an Agent](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204%20-%20Creation%20of%20an%20Agent.md)
+    - Exercise 4.1: [Test an Agent in Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
+- [Exercise 5 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment]()
 
-  
-**OR** Link to the Tutorial Navigator for example...
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+
 
 **IMPORTANT**
 
