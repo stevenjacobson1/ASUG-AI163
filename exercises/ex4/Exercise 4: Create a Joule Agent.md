@@ -67,7 +67,7 @@ The prompts from the user could be in any order, evaluate the right tool to be u
 <br>Destination variable: AICore
 <br>Resource Group ID: LGAResourceGroup
 <br>Collection ID: 620785a0-b5fa-4901-94be-2e194f926953
-<br><br>Click on Add button
+<br><br>Click on Apply button
 
 <img width="1789" height="811" alt="image" src="https://github.com/user-attachments/assets/d720f40e-502b-4af9-afc8-57e1c9cb298f" />
 
