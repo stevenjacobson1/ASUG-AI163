@@ -62,12 +62,12 @@ The prompts from the user could be in any order, evaluate the right tool to be u
 <br>4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
 <br><br>Click on ‘Add Tool’ -> ’Documents’
 <br>Enter the below details:
-<br>Tool name: ‘Carrier Selection Guide'
+<br><br>Tool name: ‘Carrier Selection Guide'
 <br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
 <br>Destination variable: AICore
 <br>Resource Group ID: LGAResourceGroup
 <br>Collection ID: 620785a0-b5fa-4901-94be-2e194f926953
-<br>Click on Add button
+<br><br>Click on Add button
 
 <img width="1789" height="811" alt="image" src="https://github.com/user-attachments/assets/d720f40e-502b-4af9-afc8-57e1c9cb298f" />
 
