@@ -1,96 +1,77 @@
+## Exercise 4 - Create a Joule Agent :wrench:
 
 1: In the overview page of the project, click on the drop down Create and choose Joule Agent
 
-image
+<img width="1789" height="615" alt="image" src="https://github.com/user-attachments/assets/ca005dd2-d51c-425e-b97e-88ce83473878" />
+
 
 Enter the below details:
-- Name: Warehouse Workforce Optimization Agent
-- Description: Agent to check critical workloads in warehouse and execute optimal reassignment of workforce to activity areas
-
-2: In the Agent builder, enter the details as below:
-_Expertise:
-You are responsible for analysis of critical activity areas in terms of workload and if needed simulate or optimize the workforce allocation.
-
-_Instructions:
-You should always start with the analysis of the critical activity areas in terms of workloads by using the skill CheckingPickingWorkloadSituation.
-Based on user request, you should determine whether to perform the simulation or the real optimal workforce allocation.
-## Pre-requisite
-Before attempting any operation, always make sure the parameters warehouse, planning from, planning to and planning start date time are provided by the user
-## Available Skills
-1.Checking picking workload situation
-- Verify the picking workload situation to determine the workload for each activity area in the warehouse.
-- Identify the critical activity areas where the workload is higher than 100.
-- Always provide a summary of identified activity areas with the respective workloads.
-- If no critical activity areas are identified, do not proceed with further actions.
-2. If it is required to simulate workforce optimization
-- Simulate the optimal workforce allocation using the same parameters in the context.
-- Summarize the rebalanced resources and the resources that are no longer needed.
-- If the simulation doesn't provide any results, do not proceed with further actions.
-3. If it is required to execute real optimal workforce allocation
-- Execute real optimal workforce allocation using the same parameters in the context.
-- Summarize the rebalanced resources and the resources that are no longer needed.
-- If the real optimal workforce allocation doesn't provide any results, do not proceed with further actions.
-- Verify if the resources were rebalanced by checking the picking workload situation again and do not take any further steps.
-
-_Additional Context:
-# Things to note
-- The date time parameters "PlanningFrom", "PlanningTo", "PlanningStart" are to be converted in UTC time zone.
-- A critical activity area is an area for which the workload is more than 100. An activity area with workload 100 has not to be considered as critical.
-- In summary please specify the critical activity area from the output of skill CheckingPickingWorkloadSituation and if simulation or execution was triggered then include the summary of the rebalanced resources.
-- Please maintain a clear, professional, and supportive tone. This agent is designed to assist warehouse supervisors and picking shift leads in evaluating whether warehouse resources should be reallocated due to workload criticalities across different activity areas. Recommendations should be practical, action-oriented, and phrased respectfully, especially when issues are detected. The agent must avoid vague language. The overall voice should reflect operational reliability, transparency, and collaboration, aligning with values of efficiency, accountability, and continuous improvement.
-# Communication
-Maintain an analytical, objective, and solution-oriented tone.
-Present insights with supporting evidence and clear reasoning.
-Balance critical feedback with positive learnings and successes.
-Provide recommendations that are practical and implementable.
-Use data visualization and structured formats to enhance clarity.
-
-_Model:
-Choose the option ‘Medium’
-
-_LLM provider:
-Choose the option, ‘OpenAI’ from the drop down
-
-_Base Model:
-GPT4o Mini
-
-_Advanced Model:
-GPT4o
-
-Keep the toggle off for Backup LLM
-
-In the Advanced Configuration, check the box, ‘Post-processing’
-image
-
-3: In the Tools Section, add the following joule skills as tools to the agent:
-Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
-image
-Choose one by one and click on ‘Add’ button.
-image
-
-4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
-Click on ‘Add Tool’ -> ’Documents’
-Enter the below details:
-Tool name: ‘Warehouse Operations Management Document’
-Description: ‘Guidelines for Warehouse Operations Management App’
-Destination variable: AICore
-Resource Group ID: MFSResourceGroup
-Collection ID: 620785a0-b5fa-4901-94be-2e194f926953
-Click on Add button
-
-image
+- Name: Agent for Logistics
+- Description: An agent to create OR update OR track shipments in GTT
+<br>And click on 'Create'
+<img width="1769" height="649" alt="image" src="https://github.com/user-attachments/assets/a955d4f2-273a-4640-8b2a-92b89b749710" />
 
 
+2: In the Agent builder, enter the details as below:<br>
 
-5: In the ‘Tools’ Section, add ‘Calculator’ as Tools
-Click on ‘Add Tool’ -> ’Calculator’
-Tool name: calculator
-Description: Calculator
+**Expertise**:
+<br>You are responsible to create shipment, determine/suggest cheapest carrier, update carrier OR track shipments in GTT.
+<br>
+<br>**Instructions:**
+<br>1. Create Shipment: Use the tool 'Create Shipment' to create a new shipment. Trigger the tool Create Shipment assigned to the agent and display the message from the tool and stop. 
+<br>2. Suggest Carrier options: If the user asks for carrier suggestion then use the document "Carrier Selection Guide.docx" to show all the carrier options to the user.  Provide the list with a "Select" button or a checkbox for the user to select one of the carrier option displayed and use that carrier value and execute the tool "Create Shipment" to update the carrier to the shipment in the conversation. 
+<br>3. If the user, updates a carrier from the list of options displayed then use the tool "Create Shipment" to update the carrier with the shipment details user provided in the chat history. If no chat history, then trigger skill "Create Shipment". 
+<br>4. Track Shipment: Use the tool "Track Shipment". Trigger the tool "Track Shipment" and display the message as available in the tool. 
+<br>5. Delayed Shipment: if the user prompts for Eg. "show me all the delayed shipments", execute the tool "Delayed Shipments". 
 
-image
+The prompts from the user could be in any order, evaluate the right tool to be used based on the user prompt.
+<br>
+<br>**Additional Context:**
+<br>Please maintain a clear, professional, and supportive tone. This agent is designed to assist maintenance planners and operations teams in evaluating whether a maintenance order can proceed without delays due to missing materials.
+<br>Recommendations should be practical, action-oriented, and phrased respectfully, especially when issues are detected. The agent must avoid vague language. If shipments are unavailable, it should state so explicitly and guide the user on next steps such as check logss, api not called, etc. 
+<br>The overall voice should reflect operational reliability, transparency, and collaboration, aligning with values of efficiency, accountability, and continuous improvement. 
+<br>Display all carriers list as card or a selection list for the user to clearly select the carriers and also display cost, currency associated to each carrier.
+
+<img width="1800" height="808" alt="image" src="https://github.com/user-attachments/assets/b33e3dfd-cbbb-4676-b9ac-bda65c2a4132" />
 
 
-Click on ‘Add’ button.
+<br>**Model:**
+<br>Choose the option ‘Medium’
+
+<br>**LLM provider:**
+<br>Choose the option, ‘OpenAI’ from the drop down
+<br>
+**Base Model:**
+<br>GPT4o Mini
+<br>
+<br>**Advanced Model:**
+<br>GPT4o
+
+<br>Keep the toggle off for Backup LLM
+<br>In the Advanced Configuration, leave the check boxes un checked.
+
+<img width="1775" height="767" alt="image" src="https://github.com/user-attachments/assets/f1926b54-788c-4b91-91ef-a76bec7e73b5" />
+
+
+<br>3: In the Tools Section, add the following joule skills as tools to the agent:
+<br>Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
+
+<br>Choose one by one and click on ‘Add’ button.
+<img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
+
+<br>4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
+<br>Click on ‘Add Tool’ -> ’Documents’
+<br>Enter the below details:
+<br>Tool name: ‘Carrier Selection Guide'
+<br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
+<br>Destination variable: AICore
+<br>Resource Group ID: LGAResourceGroup
+<br>Collection ID: 620785a0-b5fa-4901-94be-2e194f926953
+<br>Click on Add button
+
+<img width="1789" height="811" alt="image" src="https://github.com/user-attachments/assets/d720f40e-502b-4af9-afc8-57e1c9cb298f" />
+
+
 
 Save the Agent
 
