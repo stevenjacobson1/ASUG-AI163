@@ -36,7 +36,8 @@ Pick-up Date and Time: 2025-10-26T16:58:01Z
 <br><br>4: In the Joule Assistant, provide the below prompts to test:
 <br>  3.1: **Prompt**: 
 <br>“Suggest the best carriers from SFO to NYC”
-<br>**Result**:Joule Requests shipment details: Shipment ID, Source Location, Destination Location, Pick up Date. 
+<br>**Result**:Joule propose the carriers based on the carrier rates document uploaded in AI Core.
+. 
 
 <img width="458" height="276" alt="image" src="https://github.com/user-attachments/assets/dd4bb5d9-58a0-4c10-ae10-0eaa77b66dcd" />
 
