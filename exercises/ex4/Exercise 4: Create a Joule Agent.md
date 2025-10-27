@@ -65,7 +65,7 @@ The prompts from the user could be in any order, evaluate the right tool to be u
 <br><br>Tool name: ‘Carrier Selection Guide'
 <br>Description: ‘Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.’
 <br>Destination variable: AICore
-<br>Resource Group ID: LGAResourceGroup
+<br>Resource Group ID: MyResourceGroup
 <br>Collection ID: 620785a0-b5fa-4901-94be-2e194f926953
 <br><br>Click on Apply button
 
