@@ -56,4 +56,4 @@ Pick-up Date and Time: 2025-10-26T16:58:01Z
 
 
 
-<br> <br>  - [Next Exercise - > Exercise 7 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex7/README.md)
+<br> <br>  - [Next Exercise - > Exercise 7 - Additional Section - Exercise to Release, Deploy and Test the Agent in Shared Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex5/Exercise%205%20-%20Exercise%20to%20Release,%20Deploy%20and%20Test%20the%20Agent%20in%20Shared%20Environment.md)
