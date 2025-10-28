@@ -76,3 +76,4 @@ You’ve now mastered the **complete Joule Agent Lifecycle** — from private de
 👏 Fantastic work — you’ve officially reached the finish line of this TechEd exercise series
 
 ➡️ **Next Step:** [Return to the Exercise Overview](https://github.com/SAP-samples/teched2025-AD169.git)
+<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
