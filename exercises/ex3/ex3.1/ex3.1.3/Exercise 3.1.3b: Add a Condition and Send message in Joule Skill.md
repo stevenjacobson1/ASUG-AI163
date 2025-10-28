@@ -55,3 +55,4 @@ Repeat this for Branch 2 and name it as 'Shipment Update Message'.
 
 
 <br> <br>  - [Next Exercise - > Exercise 4 - Create A Joule Agent! ](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204:%20Create%20a%20Joule%20Agent.md)
+<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
