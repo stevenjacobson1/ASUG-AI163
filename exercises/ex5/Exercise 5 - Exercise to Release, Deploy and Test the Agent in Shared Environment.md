@@ -19,7 +19,7 @@ Releasing and deploying your project to a **Shared Environment** allows:
 > When your organization has Joule available in a **shared environment**, this same deployment flow will also apply when moving the project to **Joule in Production**.  
 > The deployment process — including version release, environment selection, and destination mapping — follows the **same steps** as described below.
 
-<br>
+
 ###  :file_folder: Create A Shared Environment
 <br>We will first create a Shared Environment for you to deploy your package to. 
 
@@ -38,26 +38,33 @@ Navigate to Control Tower from you build lobby and to the Environments section
 ### 7.1 – Release and Deploy the Project
 
 1. Open your **Project Overview** page in Joule Studio and click **Release**.  
-   ![Release Button](https://github.com/user-attachments/assets/c230c7a4-f7d5-4782-a01c-f5a78efd1a86)
+<img width="1785" height="650" alt="image" src="https://github.com/user-attachments/assets/faccf2e2-4d91-48e1-94a6-e76771abcdd2" />
+
 
 2. Once released, navigate to the **Released Version** of your project and click **Deploy**.  
-   ![Deploy Button](https://github.com/user-attachments/assets/aed6cf09-2c6f-4649-9bdf-c847ee24beaf)
+<img width="1798" height="583" alt="image" src="https://github.com/user-attachments/assets/4203bcc9-071a-417c-9216-763f674d74dc" />
+
 
 3. In the deployment dialog, select the **Shared Environment** created earlier in your tenant and click **Deploy**.  
-   ![Select Environment](https://github.com/user-attachments/assets/e1ad4c23-a802-4fcc-b877-6699bdde994b)
+<img width="1799" height="576" alt="image" src="https://github.com/user-attachments/assets/b4edd086-1d3b-495d-9548-9102548ee0a0" />
+
+
 
 4. Choose the destinations as follows:
 
    | Destination | Value |
    |--------------|--------|
    | **AICore** | `included-ai-core` |
-   | **WHSOPMNG_DEST** | `zewm-autonomous-warehouse-agent-srv-api` |
+   | **GetFromGTT** | `gttGetService` |
+   | **PostToGTT** | `Cottwriteservice` |
 
-   ![Destination Setup](https://github.com/user-attachments/assets/bc0dba7d-1806-4f51-be4e-7f733559a05b)
+<img width="1790" height="784" alt="image" src="https://github.com/user-attachments/assets/5abf7cf8-ff54-4318-b52b-9f7868c12051" />
+
 
 5. Click **Deploy**.  
    The project will begin deployment and show as **Deployed** once complete.  
-   ![Deployed Status](https://github.com/user-attachments/assets/dfa6a698-7797-4221-af4f-2a701416d2af)
+<img width="1779" height="628" alt="image" src="https://github.com/user-attachments/assets/2fce907d-88b7-4819-b523-680e0a79a971" />
+
 
 ---
 
@@ -67,7 +74,8 @@ Navigate to Control Tower from you build lobby and to the Environments section
    ![Control Tower](https://github.com/user-attachments/assets/739717df-e7c6-4690-a3f6-dead30ceef21)
 
 2. Search for and open the **Shared Environment** where your project was deployed.  
-   ![Search Environment](https://github.com/user-attachments/assets/bc68312f-f73f-4226-8f6c-36531c996cfc)
+<img width="1797" height="439" alt="image" src="https://github.com/user-attachments/assets/e2f25742-d7ff-4084-92fd-d627dcb34f2c" />
+
 
 3. Click on the **Joule** tab.  
 4. Click **Launch** to open the **Joule Assistant**.  
