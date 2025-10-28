@@ -1,5 +1,5 @@
 
-## Exercise 7 – Release, Deploy, and Test the Project in a Shared Environment
+## Exercise 5 – Release, Deploy, and Test the Project in a Shared Environment
 
 ### ⚙️ Context and Purpose
 In the previous exercise, you successfully tested your **Warehouse Workforce Optimization Agent** in a **Private Environment**.  
@@ -19,7 +19,21 @@ Releasing and deploying your project to a **Shared Environment** allows:
 > When your organization has Joule available in a **shared environment**, this same deployment flow will also apply when moving the project to **Joule in Production**.  
 > The deployment process — including version release, environment selection, and destination mapping — follows the **same steps** as described below.
 
----
+<br>
+###  :file_folder: Create A Shared Environment
+<br>We will first create a Shared Environment for you to deploy your package to. 
+
+Navigate to Control Tower from you build lobby and to the Environments section
+<img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
+<br>Click on the 'Create' button at the top right corner and provide the following inputs, replace the UserId value with your User Id for this exercise:
+<br>Environment Name: JouleAgent_UserID
+<br>Identifier: *Auto Populated*
+<br>Color: Any colour of your choice from the dropdown
+<br>Description: 'Environment For Joule Agent- UserID'
+
+<img width="1794" height="478" alt="image" src="https://github.com/user-attachments/assets/c26f5571-ffb0-4df9-94a5-24087602cac5" />
+<br>
+<img width="1795" height="688" alt="image" src="https://github.com/user-attachments/assets/6974795c-685b-43df-8f10-772e96ce1cf8" />
 
 ### 7.1 – Release and Deploy the Project
 
