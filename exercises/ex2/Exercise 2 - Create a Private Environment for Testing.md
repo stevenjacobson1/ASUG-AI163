@@ -20,7 +20,7 @@ In other words, the Private Environment acts as a **sandbox** where you can free
 ## 🧩 Create your Private Environment
 
 ### Step 1: Navigate to  ‘Control Tower’ and  ‘Environments’ 
-Click on the ‘Control Tower’ in the lobby
+In the SAP Build Lobby browser tab, Click on the ‘Control Tower’ in the lobby
 
 In the Control Tower, click on the tile ‘Environments’
 <img width="1561" height="805" alt="image" src="https://github.com/user-attachments/assets/36a8ded8-0539-46af-a1aa-9ae4d2965192" />
