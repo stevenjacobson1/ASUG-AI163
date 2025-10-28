@@ -41,7 +41,7 @@
 Shipment ID: 61000<userID>
 Source Location: SFO
 Destination Location: NYC
-Pick-up Date and Time: 2025-10-26T16:58:01Z
+Pick-up Date and Time: 2025-10-28T10:00:00Z
 "
 
 <br>**Result**: Joule responds with the success message you created earlier along with the shipment number and link to the GTT system 
@@ -65,7 +65,7 @@ Pick-up Date and Time: 2025-10-26T16:58:01Z
 <img width="580" height="350" alt="image" src="https://github.com/user-attachments/assets/1ecae1c1-2d46-48ef-8a45-b2cc799a8367" />
 
 <br>  6: **Prompt**:
-"I want to track the shipment 610005250"
+"I want to track the shipment 61000UserId"
 
 <br>**Result**: Joule responds with tracking info of the shipment in the GTT system
 
