@@ -1,4 +1,4 @@
-# AI163 -  Get hands-on to extend Joule and build AI agents 
+# AI163 -  Get hands-on to extend Joule and build AI Agents 
 
 ## Description
 
