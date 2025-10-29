@@ -9,8 +9,6 @@
 
 3.  In the "Create Joule Skill" dialog, enter the following details.
 
-> **Improvement: Integrated Step Logic**
-> The `IMPORTANT` note and the data table are now integrated directly into Step 3. This creates a more logical flow where the user reads the instruction, gets the critical context for the data, and then sees the data itself—all within a single, cohesive step.
 
 > [!IMPORTANT]
 > **You must use your unique UserID.**
