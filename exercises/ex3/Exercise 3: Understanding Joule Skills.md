@@ -28,7 +28,7 @@ In the next series of exercises, you will:
 
 ---
 
-- **➡️ [Start Building: Ex. 3.0 - Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)**
+➡️ [Start Building: Ex. 3.0 - Create a new Joule Skill Package](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.0/Exercise%203.0%3A%20Create%20a%20new%20Joule%20Skill%20Package.md)
 
 ---
 
