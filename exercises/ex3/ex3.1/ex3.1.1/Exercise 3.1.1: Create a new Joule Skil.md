@@ -54,7 +54,7 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
-| **Destination variable name**        | `GetFromGTT`                  |
+| **Identifier**        | `GetFromGTT`                  |
 | **Description** | `Destination to fetch data from the GTT System` |
 
 
@@ -70,7 +70,7 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 <br><br>11: Click on the $filter input area and select the <img width="100" height="25" alt="image" src="https://github.com/user-attachments/assets/97985dd3-212e-4ea3-9a00-a61302b9107b" /> option which will take you to the Formula Editor.
 <img width="1790" height="850" alt="image" src="https://github.com/user-attachments/assets/79f00018-3f51-49ed-b404-042910d48a65" />
 
-<br><br> Input ```ConcatenateStrings(["delayStatus eq ", true, ""], "")``` in the formual editor and click on 'Apply'
+* Input ```ConcatenateStrings(["delayStatus eq ", true, ""], "")``` in the formual editor and click on 'Apply'
 
 <img width="3590" height="1694" alt="image" src="https://github.com/user-attachments/assets/fd36e993-1b0d-445c-a76c-082dd86728e7" />
 
@@ -80,8 +80,8 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 * Click on the Parameters tab to show the Input & Output parameters.
 * Click on the Configure button next to the Skill Outputs 
-<img width="3586" height="1370" alt="image" src="https://github.com/user-attachments/assets/b3606f47-e4a3-42a9-9819-9ca58ddadea2" />
-<br>
+<img width="3586" height="1370" alt="image" src="https://github.com/user-attachments/assets/b3606f47-e4a3-42a9-9819-9ca58ddadea2" /><br>
+
 * Click on the 'Add Ouput' button and add the following Ouputs with Description. 
 > [!Note]
   > - All the Identifiers are entered automatically and will be same as ‘Name’ field
@@ -90,9 +90,9 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 |------|------|-------------|--------------|------|-----------|------|
 | 1 | json | json | JSON | Any | ✅ Checked| ✅ Checked|
 
-<img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" />
+<img width="1793" height="846" alt="image" src="https://github.com/user-attachments/assets/fdf645a0-d605-4256-b42b-3b58f0603ea1" /><br>
 
-<br><br>*Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="85" height="20" alt="image" src="https://github.com/user-attachments/assets/01bc5446-99c2-4f57-b08f-c7d4bc0804a6" /> from the left pane by expanding the tree.
+* Click on the <img width="100" height="32" alt="image" src="https://github.com/user-attachments/assets/de17ddc5-2555-4a2f-b197-ca7e7f09380b" /> node of the Skill and select the Action Project output <img width="85" height="20" alt="image" src="https://github.com/user-attachments/assets/01bc5446-99c2-4f57-b08f-c7d4bc0804a6" /> from the left pane by expanding the tree.
 <img width="1792" height="855" alt="image" src="https://github.com/user-attachments/assets/7255ee94-d4bb-422e-99d3-b71cdb0e0eff" />
 
 
