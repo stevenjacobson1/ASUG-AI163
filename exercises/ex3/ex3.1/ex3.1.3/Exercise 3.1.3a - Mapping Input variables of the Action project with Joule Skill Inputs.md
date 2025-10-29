@@ -1,5 +1,4 @@
 ## Exercise 3.1.3a - Mapping Input variables of the Action project with Joule Skill Inputs
-
 <br>
 
 ### 1. Mapping Skill Inputs
@@ -28,21 +27,62 @@
 ### 2. Create A Condition Branch
 <br>We will now create a condition branch in the Skill builder to check if a carrier exists for the shipment (update) or we are creating a fresh shipment without a carrier. 
 
-<br>In the skill builder click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button *after* the Action step and select 'Condition Check'
+* In the skill builder click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button *after* the Action step and select 'Condition Check'
 <img width="1257" height="762" alt="image" src="https://github.com/user-attachments/assets/e33654c6-648c-4f07-a158-6160fe714308" />
 
-<br>Name the step as 'Is Carrierid Empty' and then click on the Options button and then 'Condition Editor'
-<img width="1789" height="709" alt="image" src="https://github.com/user-attachments/assets/57eb1a05-9536-49cb-bbc5-b769495333c0" />
-<br><br>We will now define the contion to check if the carrier id is empty.
-<br><br> Click on the first input field and select the Skill Input as 'carrier'. Then select 'is empty' from the next drop down menu. Finally click Apply to save the condition.
-<img width="1660" height="758" alt="image" src="https://github.com/user-attachments/assets/8fa48c2a-0b5c-4262-a472-6c1631370313" />
+<br>
+
+* Name the step as ```Is Carrierid Empty``` and then click on the Options button and then 'Condition Editor'
+<img width="3578" height="1418" alt="image" src="https://github.com/user-attachments/assets/0169c524-ebf6-48cd-b5da-e8837bbfcc2d" />
+
+
+<br>
+
+* We will now define the contion to check if the carrier id is empty.
+
+* Click on the first input field and select the Skill Input as ```carrier```. Then select ```is empty``` from the next drop down menu. Finally click Apply to save the condition.
+<img width="3320" height="1516" alt="image" src="https://github.com/user-attachments/assets/c49f4fa3-ac4b-4362-a82b-a97619ca890e" />
+
 <br><br>
-On the Condition step, click on <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/4f8e276d-28ce-413b-8c99-cc178d5e3064" />
+* On the Condition step, click on <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/4f8e276d-28ce-413b-8c99-cc178d5e3064" />
 the button to expand the condition and view the condition branches. i.e. Branch 1 and Branch 2
 <img width="1531" height="651" alt="image" src="https://github.com/user-attachments/assets/f1ed4f7f-ef72-4dc1-8c2e-f1a085062163" />
 
-<br><br>Click on the Save button to save the Joule skill.
+* Click on the Save button to save the Joule skill.
 
-<br> <br>  - [Next Exercise - > Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
+# Summary — Exercise 3.1.3a: Mapping Input Variables of the Action Project with Joule Skill Inputs
+
+This page explains how to **map input variables** of the Action project to the corresponding **Joule Skill inputs** for the “Create Shipment” skill created in the previous exercise.  
+It also covers how to set up a **conditional branch** within the skill to handle different scenarios based on whether a carrier ID is provided.
+
+---
+
+## 1. Mapping Skill Inputs
+
+In this section, you map the Joule Skill input parameters to the Action’s input fields within the **Skill Builder**.
+
+- Select the Action in the Skill Builder and open the **Inputs** tab.  
+- Locate the relevant fields and map them according to the table below.  
+
+## 2. Creating a Condition Branch
+
+This step adds a **Condition Check** to the skill to determine whether the carrier ID field is empty.  
+Depending on the result, the skill can take different paths (e.g., create a new shipment or update an existing one).
+
+- In the Skill Builder, click the **+** button after the Action step and choose **Condition Check**.  
+- Name the condition step **“Is Carrierid Empty”**.  
+- Open the **Condition Editor** and define the condition
+
+Once added, the condition will create two branches:
+- **Branch 1** — Executes when the carrier ID is empty  
+- **Branch 2** — Executes when the carrier ID is provided  
+
+Finally, click **Save** to store the completed Joule Skill configuration.
+
+
+<br>
+<br>
+
+- ➡️ [Next Exercise - > Exercise 3.1.3b - Add Send Message steps in Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.3/Exercise%203.1.3b:%20Add%20a%20Condition%20and%20Send%20message%20in%20Joule%20Skill.md)
 
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
