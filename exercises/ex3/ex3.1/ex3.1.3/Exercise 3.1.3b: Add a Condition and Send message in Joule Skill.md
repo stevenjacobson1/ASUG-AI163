@@ -2,21 +2,25 @@
 <br> A 'Send Message' step enables you to send a personalized & pre-defined message to the end user in addion to the standard Joule response. 
 <br> We will be creating 2 "Send Message" steps, one for each of the Condition branches mentioned in the previous section. 
 
-<br>In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
-<br>
+* In Branch 1, Click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" /> button & select 'Send Response' followed by 'Send Message'. Repeat the step for Branch 2, as well.
 
 ![2025-10-27_18-00-19 (1)](https://github.com/user-attachments/assets/a0659e7d-6fbe-4fc6-ac0c-81f6486d4c2a)
 
-Click on the Send Message step on branch 1 and name it as 'Create Shipment Message'.
 <br>
-<img width="1786" height="699" alt="image" src="https://github.com/user-attachments/assets/1adda104-bdfb-4fc8-8ea1-e53135dbb9b4" />
+
+* Click on the Send Message step on branch 1 and name it as ```Create Shipment Message```
+
+<img width="3572" height="1398" alt="image" src="https://github.com/user-attachments/assets/256a69d4-430c-4586-b1b0-d509435f97e9" />
+
 <br>
-Repeat this for Branch 2 and name it as 'Shipment Update Message'.
+
+* Repeat this for Branch 2 and name it as ```Shipment Update Message```
 <img width="1796" height="658" alt="image" src="https://github.com/user-attachments/assets/7344e2bd-daa6-419a-9183-d9d4b18679a7" />
 
-<br>Click on the 'Create Shipment Message' in Branch 1 and click on the 'Open Message Editor" button.
+* Click on the 'Create Shipment Message' in Branch 1 and click on the 'Open Message Editor" button.
+<img width="1787" height="683" alt="image" src="https://github.com/user-attachments/assets/efd72d08-292f-4e59-993e-47f130cc4fe1" />
 
-<br>In the Message Configuration section fill up the details from the table below. 
+* In the Message Configuration section fill up the details from the table below. 
 
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
@@ -27,16 +31,21 @@ Repeat this for Branch 2 and name it as 'Shipment Update Message'.
 
 <img width="1549" height="844" alt="image" src="https://github.com/user-attachments/assets/609ba0dc-3449-4617-9d26-aa85afef4e2b" />
 
-<br>In the Action Button section, Click on Add Button and enter the values from the table below:
+* In the Action Button section, Click on Add Button and enter the values from the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | 'View Shipment'|
 | url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
 
-<br>Your Send Message step should look like the image below. You will also notice a preview of what you have designed on the left side. 
+> [!WARNING]
+> You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
+
+<br>
+
+* Your Send Message step should look like the image below. You will also notice a preview of what you have designed on the left side. 
 <img width="1550" height="665" alt="image" src="https://github.com/user-attachments/assets/2b9295c1-c0f0-4e0e-b2b1-e61b20d4a00c" />
 <br>
-<br>We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
+* We will now replicate these steps for the 'Shipment Update Message' in Branch 2 with a change in few fields as per the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Message Type | Illustrated Message    |
@@ -44,15 +53,41 @@ Repeat this for Branch 2 and name it as 'Shipment Update Message'.
 | Text        | 'Shipment Id ${context.startEvent.shipmentid} created successfully in GTT'  |
 | Illustration      | Success Check Mark  |
 
-<br>In the Action Button section, Click on Add Button and enter the values from the table below:
+* In the Action Button section, Click on Add Button and enter the values from the table below:
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | 'View Shipment'|
 | url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
 
+> [!WARNING]
+> You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
+
 <img width="1563" height="856" alt="image" src="https://github.com/user-attachments/assets/b85f17a6-3a1c-4c63-b17e-149ab3adb13e" />
-<br><br>Save you Skill
 
+* Save you Skill
 
-<br> <br>  - [Next Exercise - > Exercise 4 - Create A Joule Agent! ](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204:%20Create%20a%20Joule%20Agent.md)
+## Summary — Exercise 3.1.3b: Add Send Message Steps in Joule Skill
+
+This page explains how to add **“Send Message”** steps in the Joule Skill to provide personalized and pre-defined feedback messages to users.  
+These messages are displayed in addition to the standard Joule response when a shipment is **created** or **updated** in the SAP Business Network GTT system.
+
+The exercise builds on the condition branches created in the previous step and includes the following key actions:
+
+### 1. Creating Send Message Steps
+
+Two **Send Message** steps are created — one for each condition branch:
+
+- **Branch 1:** When a new shipment is created  
+  - Step name: `Create Shipment Message`
+- **Branch 2:** When an existing shipment is updated  
+  - Step name: `Shipment Update Message`
+
+### 2. Configuring the “Create Shipment Message”
+
+### 3. Configuring the “Shipment Update Message”
+
+<br>
+
+- ➡️ [Next Exercise - > Exercise 4 - Create A Joule Agent! ](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204:%20Create%20a%20Joule%20Agent.md)
+  
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
