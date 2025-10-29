@@ -39,7 +39,7 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 <img width="1799" height="852" alt="image" src="https://github.com/user-attachments/assets/da42efb2-69d2-48a9-9b94-b93d40a5546c" />
 
 
-<br><br>7: In the search bar, enter 'GTTReadService' and press Enter to search for the Action and click on the Add button
+<br><br>7: In the search bar, enter ```GTTReadService``` and press Enter to search for the Action and click on the Add button
 <img width="1797" height="851" alt="image" src="https://github.com/user-attachments/assets/370ac218-fa2b-451a-8e9c-6f291d90de17" />
 
 
@@ -48,8 +48,12 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 
 <br><br>9: Create a ‘Destination Variable’
-<br>Destination variable name : GetFromGTT
-<br>Description: Destination to fetch data from the GTT System
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Destination variable name**        | `GetFromGTT`                  |
+| **Description** | `Destination to fetch data from the GTT System` |
+
+
 > [!Note]
   > - Once created, remember to select the destination name from the dropdown and Save your project.
 
