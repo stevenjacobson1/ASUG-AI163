@@ -163,9 +163,10 @@ This ensures a balanced, performant setup for the agent’s reasoning and respon
 ### 5. Add Joule Skills as Tools
 These tools enable the agent to perform specific logistics tasks.
 
-### 6. Add Documents as Tools
+### 6. Add Documents as Tools - Document Grounding
 This document grounding allows the agent to reference real carrier data.
 
+<br>
 
 ➡️ [Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
