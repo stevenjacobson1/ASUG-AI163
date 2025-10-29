@@ -55,7 +55,6 @@
 | Illustration      | Success Check Mark  |
 
 * In the Action Button section, Click on Add Button and enter the values from the table below:
-
   
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
