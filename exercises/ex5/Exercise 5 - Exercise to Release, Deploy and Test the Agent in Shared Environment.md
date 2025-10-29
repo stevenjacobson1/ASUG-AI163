@@ -89,7 +89,7 @@ Releasing and deploying your project to a **Shared Environment** allows:
 * Click on the **Joule** tab.  
 * Click **Launch** to open the **Joule Assistant**.
 > [!NOTE]
-> In case you do not see the Joule tab, it could be due to yur screen resolution. Click the menue button at the end ( 3 vertical dots) to find Joule.
+> In case you do not see the Joule tab, it could be due to yur screen resolution. Click the menu button at the end ( 3 vertical dots) to find the Joule tab.
 
 5. Enter the same prompts used during testing in the **Private Environment** (see [Exercise 4.1 – Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)) to validate the behavior in the shared setup.
 
