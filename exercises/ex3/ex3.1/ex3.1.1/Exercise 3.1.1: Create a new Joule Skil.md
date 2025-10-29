@@ -99,5 +99,20 @@ This Joule Skill is used to fetch delayed shipments from the SAP Business Networ
 
 <br><br>13: Save your Joule Skill. :white_check_mark:
 
+# Summary — Exercise 3.1.1: Create a New Joule Skill
+
+This page explains how to create the first **Joule Skill** in the SAP **Joule Skill Package**, named **“Get Delayed Shipments.”**  
+The purpose of this skill is to **retrieve all delayed shipments** from the **SAP Business Network Global Track and Trace (GTT)** system.
+
+The exercise walks users through the complete process — from creating the skill and configuring its properties to connecting it with a backend action and defining input/output parameters. It involves:
+
+- Creating a new **Joule Skill** using the **Skill Builder** interface.  
+- Adding an action call to **`GTTReadService`** for data retrieval.  
+- Setting up a **destination variable** (`GetFromGTT`) to connect with the GTT system.  
+- Applying a **filter formula** to fetch only delayed shipments:
+  ```plaintext
+  ConcatenateStrings(["delayStatus eq ", true, ""], "")
+- Defining an output parameter to return the results in JSON format.
+
 - [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
