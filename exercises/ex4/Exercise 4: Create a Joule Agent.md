@@ -5,11 +5,16 @@
 <img width="1789" height="615" alt="image" src="https://github.com/user-attachments/assets/ca005dd2-d51c-425e-b97e-88ce83473878" />
 
 
-Enter the below details:
-- Name: Agent for Logistics
-- Description: An agent to create OR update OR track shipments in GTT
-<br>And click on 'Create'
-<img width="1769" height="649" alt="image" src="https://github.com/user-attachments/assets/a955d4f2-273a-4640-8b2a-92b89b749710" />
+* Enter the below details:
+  
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Name**        | `Agent for Logistics`                  |
+| **Description** | `An agent to create OR update OR track shipments in GTT` |
+
+* Click on 'Create'
+<img width="3538" height="1298" alt="image" src="https://github.com/user-attachments/assets/2aadd9a6-3717-4f81-b557-22596d213e2c" />
+
 
 
 2: In the Agent builder, enter the details as below:<br>
