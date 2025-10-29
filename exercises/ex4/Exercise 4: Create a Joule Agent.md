@@ -1,6 +1,29 @@
 ## Exercise 4 - Create a Joule Agent :wrench:
 
-1: In the overview page of the project, click on the drop down Create and choose Joule Agent
+<br>Before we begin, we need to creat an Destination Environment variable for Ai Core.
+This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
+<br>
+1. Click the Settings icon in the top-right corner of the Jole Package, as shown in the screenshot:
+<img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
+
+*Click on 'Environment Variables' and then the Create button
+
+<img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
+
+<br>Input the following Values 
+
+| Field         | Value                                     |
+|---------------|-------------------------------------------|
+| **Identifier**        | `AiCore`                  |
+| **Description** | `Destination for AI Core` |
+| **Type** | `Destination` |
+
+* Followed by "Create"
+<img width="1781" height="799" alt="image" src="https://github.com/user-attachments/assets/5139c4b5-d540-4266-9c41-3e8b3071d400" />
+
+
+
+2. In the overview page of the project, click on the drop down Create and choose Joule Agent
 
 <img width="1789" height="615" alt="image" src="https://github.com/user-attachments/assets/ca005dd2-d51c-425e-b97e-88ce83473878" />
 
@@ -17,7 +40,7 @@
 
 <br>
 
-2: In the Agent builder, enter the details as below:<br>
+3. In the Agent builder, enter the details as below:<br>
 
 **Expertise**:
 
@@ -63,13 +86,13 @@ Display all carriers list as card or a selection list for the user to clearly se
 
 <br>
 
-3. Choose the remaining options according to the table below:
+4. Choose the remaining options according to the table below:
   
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Model**        | `Medium`                  |
 | **LLM provider** | `OpenAI` |
-| **Base Model** | `GPT4o Mini` |
+| **Base Model** | `GPT4o` |
 | **Advanced Model** | `GPT4o` |
 | **Backup LLM** | `Toggle OFF` |
 | **Advanced Configuration** | `Both checkboxes Unchecked` |
@@ -79,14 +102,18 @@ Display all carriers list as card or a selection list for the user to clearly se
 <img width="1775" height="767" alt="image" src="https://github.com/user-attachments/assets/f1926b54-788c-4b91-91ef-a76bec7e73b5" />
 
 
-<br>4. In the Tools Section, add the following joule skills as tools to the agent:
-<br>Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
-
-<br>Choose one by one and click on ‘Add’ button.
+<br>
+5. In the Tools Section, add the following joule skills as tools to the agent:
+* Click on ‘Add Tool’ and click on ‘Joule Skill’. A pop-up window with available joule skills in the project is displayed.
+* Choose one by one and click on ‘Add’ button.
 <img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
 
-<br>4: In the ‘Tools’ Section, add ‘Documents’ as Tools:
-<br><br>Click on ‘Add Tool’ -> ’Documents’
+<br>
+
+6. **Document Grounding**: In the ‘Tools’ Section, add ‘Documents’ as Tools:
+* Click on ‘Add Tool’ -> ’Documents’
+<img width="1789" height="785" alt="image" src="https://github.com/user-attachments/assets/42a5cd61-65fe-468c-956c-f59f415a70a9" />
+
 <br>Enter the below details:
 
 | Field         | Value                                     |
@@ -97,6 +124,8 @@ Display all carriers list as card or a selection list for the user to clearly se
 | **Resource Group ID**        | `MyResourceGroup`                  |
 | **Collection ID**        | `05af5860-a616-4ae0-ae39-bacff6d90a61`                  |
 
+**💡 Tip:** Document grounding in SAP Build Joule Agent is a capability that uses a Retrieval-Augmented Generation (RAG) technique to provide users with accurate, specific answers based on an organization's internal business documents. Instead of relying only on a large language model's (LLM) general training data, Joule can reference a customer's private data, such as HR policies, manuals and FAQs. 
+This process enhances the reliability and relevance of Joule's responses by reducing inaccuracies and hallucinations that can occur when an LLM operates without specific context. 
 
 <br>
 
@@ -106,9 +135,37 @@ Display all carriers list as card or a selection list for the user to clearly se
 
 
 <br>
-Save the Agent
+* Save the Agent
+
+## Summary — Exercise 4: Create a Joule Agent 🔧
+
+This page explains how to create a **Joule Agent** in SAP Joule and configure it with the previously created **Joule Skills** and relevant document grounding.  
+The agent acts as an intelligent assistant that can **create, update, or track shipments** in the **SAP Business Network Global Track and Trace (GTT)** system.
+
+---
+
+### 1. Create AI Core Destination Variable
+Before building the agent, a **Destination Environment Variable** for AI Core must be created.
+This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
 
 
+### 2. Create a Joule Agent
+This agent will combine the functionality of the three Joule Skills created earlier.
 
-<br> <br>  - [Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
+### 3. Configure Agent Details
+**Expertise** - Defines the agent’s professional focus and domain
+**Instructions** - Specifies the agent’s primary goals and logic for choosing tools
+**Additional Context** - Provides tone and behavioral guidance for the agent
+
+### 4. Model Configuration
+This ensures a balanced, performant setup for the agent’s reasoning and responses.
+
+### 5. Add Joule Skills as Tools
+These tools enable the agent to perform specific logistics tasks.
+
+### 6. Add Documents as Tools
+This document grounding allows the agent to reference real carrier data.
+
+
+➡️ [Next Exercise - > Exercise 4.1 - Test an Agent in a Private Environment](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex4/Exercise%204.1%3A%20Test%20an%20Agent%20in%20Private%20Environment.md)
 <br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
