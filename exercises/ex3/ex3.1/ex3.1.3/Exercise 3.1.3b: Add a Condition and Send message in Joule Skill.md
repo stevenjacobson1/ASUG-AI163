@@ -55,18 +55,20 @@
 | Illustration      | Success Check Mark  |
 
 * In the Action Button section, Click on Add Button and enter the values from the table below:
+
   
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
-| Title                   | 'View Shipment'|
-| url        | https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts  |
+| Title                   | `View Shipment`|
+| url        | `https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts`  |
+
 
 > [!WARNING]
 > You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
 
 <img width="1563" height="856" alt="image" src="https://github.com/user-attachments/assets/b85f17a6-3a1c-4c63-b17e-149ab3adb13e" />
 
-* Save you Skill
+* Save your Skill
 
 ## Summary — Exercise 3.1.3b: Add Send Message Steps in Joule Skill
 
