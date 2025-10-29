@@ -30,7 +30,8 @@ Testing validates that:
 2.  In the search bar, find the action project `GTTReadService`.
 3.  Click on the **name of the project** (`GTTReadService`) to open it.
 
-<img width="1780" height="424" alt="image" src="https://github.com/user-attachments/assets/e3ea2c66-6da5-45a8-b07a-b0b91141b3eb" />
+<img width="3560" height="848" alt="image" src="https://github.com/user-attachments/assets/7e47fa56-5ca6-435d-9940-4e8d25595d1a" />
+
 <br>
 
 <img width="1797" height="517" alt="image" src="https://github.com/user-attachments/assets/9973859d-a4a7-41b7-8e84-7e958033edf0" />
