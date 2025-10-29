@@ -23,7 +23,7 @@ Releasing and deploying your project to a **Shared Environment** allows:
 ###  :file_folder: Create A Shared Environment
 <br>We will first create a Shared Environment for you to deploy your package to. 
 
-Navigate to Control Tower from you build lobby and to the Environments section
+* Navigate to Control Tower from you build lobby and to the Environments section
 <img width="1790" height="790" alt="image" src="https://github.com/user-attachments/assets/4fb77b80-a21f-4b7c-a608-0d098e856dd3" />
 <br>Click on the 'Create' button at the top right corner and provide the following inputs, replace the UserId value with your User Id for this exercise:
 <br>Environment Name: JouleAgent_UserID
