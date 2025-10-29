@@ -15,5 +15,5 @@
 
 ---
 
-- **➡️ [Next: Exercise 1 - Test an Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)**
+➡️ [Next: Exercise 1 - Test an Action Project](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex1/Exercise%201%20-%20Test%20an%20Action%20Project.md)**
 - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
