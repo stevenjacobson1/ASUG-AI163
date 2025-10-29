@@ -112,7 +112,8 @@ The exercise walks users through the complete process — from creating the skil
 - Applying a **filter formula** to fetch only delayed shipments:
   ```plaintext
   ConcatenateStrings(["delayStatus eq ", true, ""], "")
-- Defining an output parameter to return the results in JSON format.
+- Defining an output parameter to return the results in JSON format.<br>
 
-- [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)
-<br> <br>  - [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
+➡️ [Exercise 3.1.2 - Create the second Joule Skill](https://github.com/SAP-samples/teched2025-AI163/blob/main/exercises/ex3/ex3.1/ex3.1.2/Exercise%203.1.2%3A%20Create%20the%20second%20%20Joule%20Skill.md)<br>
+
+- [Back To Landing Page](https://github.com/SAP-samples/teched2025-AI163/blob/main/README.md)
