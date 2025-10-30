@@ -138,7 +138,8 @@ Display all carriers list as card or a selection list for the user to clearly se
 2. In the **Tools Section**, add the Joule Skills you created as tools for the agent:
 * Click on **‘Add Tool’** and then click on **‘Joule Skill’**. A pop-up window with available skills in the project will be displayed.
 * Choose each skill one-by-one and click the **‘Add’** button.
-<img width="1797" height="898" alt="image" src="https://github.com/user-attachments/assets/16feaee2-b821-4ce0-94cf-3bea0ccb489d" />
+<img width="3594" height="1796" alt="image" src="https://github.com/user-attachments/assets/881752d8-8f17-4b18-bbf8-8e0365f2374c" />
+
 
 <br><br>
 
