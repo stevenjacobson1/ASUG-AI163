@@ -38,7 +38,7 @@
 > Replace < UserID > with your UserID
 
 ```
-Shipment ID: 61000<UserID>
+Shipment ID: 71000<UserID>
 Source Location: SFO
 Destination Location: NYC
 Pick-up Date and Time: November 07, 2025 5:00:00 PM CET
