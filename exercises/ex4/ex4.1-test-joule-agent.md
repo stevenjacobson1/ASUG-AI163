@@ -73,7 +73,7 @@ Pick-up Date and Time: November 07, 2025 5:00:00 PM CET
 > [!NOTE]
 > Replace < UserID > with your User Id
 
-```I want to track the shipment 61000<UserID>```
+```I want to track the shipment 71000<UserID>```
 
 
 
