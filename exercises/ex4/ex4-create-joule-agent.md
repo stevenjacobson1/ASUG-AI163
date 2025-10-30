@@ -22,6 +22,36 @@ Before we build the agent, we must create a Destination Environment variable for
 <br>
 
 ---
+### 💡 Understanding Joule Agents
+
+**Joule Agents** represent the next evolution of enterprise automation — intelligent, autonomous systems that **plan, reason, and act** across multiple tools and systems to achieve complex goals.  
+While **Joule Skills** execute predefined, deterministic operations, Joule Agents handle **multi-step, adaptive workflows**, deciding *what to do, when, and how* based on business context and user intent.
+
+Functioning as orchestration layers, Joule Agents combine analytical reasoning with real-time decision-making. They use **Large Language Models (LLMs)** to interpret user requests, dynamically select relevant tools (including Joule Skills), and generate contextual responses — enabling **goal-oriented, conversational automation**.
+
+Each Joule Agent is built around four key cognitive abilities:
+
+1. **Planning** – The agent determines the best sequence of actions to achieve a business goal, orchestrating multiple tools or Joule Skills as needed.  
+2. **Reflection** – The agent evaluates its own steps, identifies errors or missing data, and self-corrects to reach the desired outcome.  
+3. **Tool Usage** – The agent dynamically invokes SAP Build Actions, Joule Skills, or other APIs to perform operations, retrieve data, or trigger systems.  
+4. **Collaboration** – Agents can cooperate with other agents or human users, engaging in dialogue, confirmation, or validation when business logic requires oversight.
+
+![Joule Skills vs Agents](https://github.com/SAP-samples/teched2025-AD169/blob/main/exercises/ex5/Joule%20Skills%20vs%20Agents.jpg)
+
+---
+
+### ⚙️ Why This Matters
+
+While **Joule Skills** define *what* actions can be performed (e.g., analyze workloads or simulate optimizations), the **Joule Agent** defines *how* these skills are orchestrated in a conversational, goal-driven workflow.  
+
+This agent:
+- Combines multiple Joule Skills into an intelligent flow.  
+- Makes autonomous decisions based on data and context.  
+- Communicates naturally with warehouse supervisors.  
+
+In short, this is where your **Agentic Warehouse Operations** scenario becomes fully functional.
+
+---
 
 ### Part 1: Create and Define the Agent
 
