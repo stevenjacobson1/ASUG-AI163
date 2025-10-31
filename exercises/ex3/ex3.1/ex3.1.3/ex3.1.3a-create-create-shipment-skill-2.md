@@ -26,7 +26,7 @@
 <br>
 
 ### 2. Mapping Skill Output
-<br> Click on the <img width="273" height="66" alt="image" src="https://github.com/user-attachments/assets/eb3c6d12-a9b5-43dc-8c76-a8594861fc4b" /> End node in the skill builder and map the skill output as per the table below:
+<br> Click on the <img width="100" height="30" alt="image" src="https://github.com/user-attachments/assets/eb3c6d12-a9b5-43dc-8c76-a8594861fc4b" /> End node in the skill builder and map the skill output as per the table below:
 
 | Field Name              | Mapped Path                 |
 |--------------------------|-----------------------------|
