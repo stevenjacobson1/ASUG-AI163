@@ -22,10 +22,15 @@ Before diving into the use case, let's take a moment to get acquainted with our 
 Meet George, a Logistics Coordinator at a global manufacturing company. Every day, George is responsible for creating, tracking, and managing shipments across multiple transportation partners using SAP Business Networks Global Track and Trace — or GTT for short. His job is to ensure that every delivery — from raw materials to finished goods — reaches the customer on time and in full.
 
 #### Persona — Logistics Coordinator
-<img width="747" height="432" alt="image" src="https://github.com/user-attachments/assets/d955078e-3896-4a28-b504-6a330525b36e" />
+<img width="1147" height="645" alt="image" src="https://github.com/user-attachments/assets/701cee26-bc65-44f4-9fba-7613cfa873c5" />
+
 
 #### Pain Points — Logistics Coordinator
-<img width="741" height="468" alt="image" src="https://github.com/user-attachments/assets/edaf66c0-fcd0-4b49-aac9-143a6e96e8a4" />
+<img width="1149" height="645" alt="image" src="https://github.com/user-attachments/assets/912eb1aa-61b5-4800-b045-b6c048a3bcb3" />
+
+#### Agent for Logistics
+<img width="1793" height="969" alt="image" src="https://github.com/user-attachments/assets/474f53ac-e591-4657-ab73-6814b2a8c1b0" />
+
 
 ### You will build a goal-driven Joule Agent in Joule Studio that:
 
