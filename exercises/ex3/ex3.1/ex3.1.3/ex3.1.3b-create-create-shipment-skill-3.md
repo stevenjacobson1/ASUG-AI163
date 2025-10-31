@@ -35,7 +35,7 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | `View Shipment`|
-| url        | ```https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
+| url        | ```https://store-content-dev.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
 
 > [!WARNING]
 > You will not be able to directly access the GTT system due to restricted Authorization. Ask your trainer to show you the created shipment in the GTT system. 
@@ -59,7 +59,7 @@
 | Field Name              | Value                |
 |--------------------------|-----------------------------|
 | Title                   | `View Shipment`|
-| url        | ```https://coenagtt.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
+| url        | ```https://store-content-dev.gtt-flp-lbnplatform.cfapps.eu10.hana.ondemand.com/cp.portal/site?sap-language=en#Shipment-track?sap-ui-app-id-hint=com.sap.gtt.app.sts```  |
 
 
 > [!WARNING]
