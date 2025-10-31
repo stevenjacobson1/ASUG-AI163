@@ -46,14 +46,14 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 <img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
 
 <br><br>7: Now we will configure an Output Parameter 
-* Click on the ‘Parameters’ tab and expand the section, ‘Skill Inputs’. Click on ‘Configure’ button to configure the skill inputs.
+* Click on the ‘Parameters’ tab and expand the section, ‘Skill Outputs’. Click on ‘Configure’ button to configure the skill outputs.
 <img width="1781" height="697" alt="image" src="https://github.com/user-attachments/assets/a52ba80b-898d-435d-967f-59db16ae9191" />
 
-* Click on the 'Add Input' button and add the following Inputs with Description. 
+* Click on the 'Add Ouput' button and add the following Outputs with Description. 
 
-| **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
+| **S.No** | **Name**       | **Identifier** | **Description**         | **Required** | **List** |
 |:--------:|----------------|----------------|--------------------------|---------------|
-| 1 | ```Created Shipment Id```     | createdShipmentId     | ```Created Shipment Id```              | ✅ Checked|
+| 1 | ```Created Shipment Id```     | createdShipmentId     | ```Created Shipment Id```              | ✅ Checked| ⬜ Unchecked|
 
 * Once all inputs are added, click on ‘Apply’ button.
 <img width="1792" height="822" alt="image" src="https://github.com/user-attachments/assets/41a189ad-3abd-4017-b3ef-a0362e8a1e95" />
