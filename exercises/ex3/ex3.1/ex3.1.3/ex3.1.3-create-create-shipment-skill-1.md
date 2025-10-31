@@ -45,23 +45,35 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 * Once all inputs are added, click on ‘Apply’ button.
 <img width="1783" height="788" alt="image" src="https://github.com/user-attachments/assets/59a23305-7c8a-4072-8df0-f8f1260d9f83" />
 
-<br>7: In the skill builder, click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" />
+<br><br>7: Now we will configure an Output Parameter 
+* Click on the ‘Parameters’ tab and expand the section, ‘Skill Inputs’. Click on ‘Configure’ button to configure the skill inputs.
+<img width="1781" height="697" alt="image" src="https://github.com/user-attachments/assets/a52ba80b-898d-435d-967f-59db16ae9191" />
+
+* Click on the 'Add Input' button and add the following Inputs with Description. 
+| **S.No** | **Name**       | **Identifier** | **Description**         | **Required** |
+|:--------:|----------------|----------------|--------------------------|---------------|
+| 1 | ```Created Shipment Id```     | createdShipmentId     | ```Created Shipment Id```              | ✅ Checked|
+
+* Once all inputs are added, click on ‘Apply’ button.
+<img width="1792" height="822" alt="image" src="https://github.com/user-attachments/assets/41a189ad-3abd-4017-b3ef-a0362e8a1e95" />
+
+<br>8: In the skill builder, click on the <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/dd09a02b-cd57-409e-91e5-734e03150803" />
  button to add the Action to create shipments.
 <img width="1790" height="673" alt="image" src="https://github.com/user-attachments/assets/3c6105a3-e43c-4229-b900-d4c6f1299c41" />
 
-<br><br>8: Choose the option, ‘Call Action’
+<br><br>9: Choose the option, ‘Call Action’
 <img width="1789" height="810" alt="image" src="https://github.com/user-attachments/assets/ef020b5b-54b3-499b-b9b0-6fab00db9f53" />
 
-<br><br>9: Click on the 'Browse All Actions" option
+<br><br>10: Click on the 'Browse All Actions" option
 <img width="1775" height="779" alt="image" src="https://github.com/user-attachments/assets/18426b2b-9ab1-4729-bb96-912c67fb9be1" />
 
-<br><br>10: In the search bar, enter ```createshipment``` and press Enter to search for the Action to create a shipment and click on the Add button
+<br><br>11: In the search bar, enter ```createshipment``` and press Enter to search for the Action to create a shipment and click on the Add button
 <img width="1793" height="915" alt="image" src="https://github.com/user-attachments/assets/9f72cb4b-4b50-457b-960a-b20dabb00093" />
 
-<br><br>11: Once the action call is added, click on it so that a right panel opens to adding Input parameters & the Destination variable
+<br><br>12: Once the action call is added, click on it so that a right panel opens to adding Input parameters & the Destination variable
 <img width="1794" height="757" alt="image" src="https://github.com/user-attachments/assets/aaf37d72-a657-409d-b5c7-dc3bb757b73f" />
 
-<br><br>12: Create a ‘Destination Variable’
+<br><br>13: Create a ‘Destination Variable’
 
 * Click on the Destination Variable input area and select "Create Destination Variable" and provide the inputs below:
 <img width="3593" height="1514" alt="image" src="https://github.com/user-attachments/assets/337a2ea8-d516-48ea-a2da-7fedf9d5b657" />
