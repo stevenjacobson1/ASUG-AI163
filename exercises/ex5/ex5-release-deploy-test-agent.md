@@ -60,7 +60,7 @@ We will first create a Shared Environment for you to deploy your package to.
    | **GetFromGTT** | `gttGetService` |
    | **PostToGTT** | `gttwriteservice` |
 
-<img width="1790" height="784" alt="image" src="https://github.com/user-attachments/assets/5abf7cf8-ff54-4318-b52b-9f7868c12051" />
+<img width="1790" height="784" alt="image" src="https://github.com/stevenjacobson1/ASUG1-AI163/blob/35d6eb65459ee5b76e1e9bc0367fa0fb390094b6/exercises/ex5/images/5_1_deploy.jpg" />
 
 5. Click **Deploy**.
   
