@@ -40,7 +40,7 @@ This Joule Skill is used to track a shipment in the SAP Business Networks GTT Sy
 
 | **S.No** | **Name**       | **Identifier**(auto-populated) | **Description**         | **Required** |
 |:--------:|----------------|----------------|--------------------------|---------------|
-| 1 | trackingID     | trackingiD     | Tracking Number              | ✅ |
+| 1 | trackingID     | trackingid     | Tracking Number              | ✅ |
 
 
 * Once all inputs are added, click on ‘Apply’ button.
@@ -118,7 +118,7 @@ ConcatenateStrings(["trackingId eq ", [Tracking ID], ""], "'")
  **Field Name**     | **Mapped Value** | **Path** |
 |--------------------|------------------|------------------------|
 | destinationcity    | arrivalLocationId | getReadquery > result > d > list - results > arrivalLocationId |
-| gttstatus      | eventStatus_code     | getReadquery > result > d > results > plannedEvents > list - results > eventStatus_code |
+| gttstatus      | eventStatus_code     | getReadquery > result > d > list - results > plannedEvents > list - results > eventStatus_code |
 | json           | result           | getReadquery > result |
 <img width="3586" height="1720" alt="image" src="https://github.com/user-attachments/assets/17d4aeb3-8389-48ad-a7dd-0f04092fc7d3" />
 
