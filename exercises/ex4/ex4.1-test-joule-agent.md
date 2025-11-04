@@ -20,7 +20,7 @@
 
 <img width="1790" height="858" alt="image" src="https://github.com/user-attachments/assets/ef0350ed-7d3c-4fe3-bcd9-9ab55a6c54f4" />
 
-* Click on Test
+* Click on Continue
   
 
 <br><br>3. In the Joule Assistant, provide the below prompts to test:
