@@ -38,7 +38,7 @@ We will first create a Shared Environment for you to deploy your package to.
 <br>
 <img width="1795" height="688" alt="image" src="https://github.com/user-attachments/assets/6974795c-685b-43df-8f10-772e96ce1cf8" />
 
-3. You have now created your Shared Environment and can navigate back to your project.
+3. You have successfully created your Shared Environment and can navigate back to your project.
 ---
 
 ### Part 2: Release and Deploy the Project
