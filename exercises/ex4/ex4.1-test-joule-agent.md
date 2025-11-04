@@ -14,7 +14,7 @@
 | Field         | Value                                     |
 |---------------|-------------------------------------------|
 | **Environment**        | `Choose your <_UserID> related Private environment`                  |
-| **AICore** | `included-ai-core` |
+| **AICore** | `AI-Core` |
 | **PostToGTT** | `gttwriteservice` |
 | **GetFromGTT** | `gttGetService` |
 
