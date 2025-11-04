@@ -18,7 +18,7 @@
 | **PostToGTT** | `gttwriteservice` |
 | **GetFromGTT** | `gttGetService` |
 
-<img width="1790" height="858" alt="image" src="https://github.com/user-attachments/assets/ef0350ed-7d3c-4fe3-bcd9-9ab55a6c54f4" />
+<img width="1790" height="858" alt="image" src="https://github.com/stevenjacobson1/ASUG1-AI163/blob/8a5c6c8c5acc5164121ce7f2298280e4e10b617b/exercises/ex4/images/4_1_test_continue.jpg" />
 
 * Click on Continue
   
