@@ -44,7 +44,7 @@
 
 <br>
 
-* Name the step as ```Is Carrierid Empty``` and then click on the Options button and then 'Condition Editor'
+* Name the step as ```Is Carrierid Empty``` and then click on the Options button (...) and then 'Condition Editor'
 <img width="3578" height="1418" alt="image" src="https://github.com/user-attachments/assets/0169c524-ebf6-48cd-b5da-e8837bbfcc2d" />
 
 
