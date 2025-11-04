@@ -34,7 +34,7 @@ In short, this is where your **Logistics Agent** scenario becomes fully function
 Before we build the agent, we must create a Destination Environment variable for AI Core. This allows the Joule Agent to connect with the AI Core environment for document-based reasoning.
 <br>
 1. Click the **Settings** icon in the top-right corner of the Joule Skill Package, as shown in the screenshot:
-<img width="1798" height="670" alt="image" src="https://github.com/user-attachments/assets/399ac844-ddcb-4fe4-9e45-9ae6628d5144" />
+<img width="1798" height="670" alt="image" src="https://github.com/stevenjacobson1/ASUG1-AI163/blob/5e8bef52842985f30659da2cc345a93b697f3e58/exercises/ex4/images/4_1_settings.jpg" />
 
 * Click on **Environment Variables** and then the **Create** button.
 <img width="1783" height="798" alt="image" src="https://github.com/user-attachments/assets/989661f9-aea0-469f-9580-90a214749c47" />
