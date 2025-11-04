@@ -224,8 +224,8 @@ After tool execution, conclude the interaction by displaying the result message 
 | **Tool name**        | `Carrier Selection Guide`                  |
 | **Description** | `Internal guidelines required by the agent to select cheapest carrier based on the costs provided in the document. It covers the carrier selection guide as a table with all possible carriers for the given source and destination location.` |
 | **Destination variable**        | `AICore`                  |
-| **Resource Group ID**        | `MyResourceGroup`                  |
-| **Collection ID**        | `05af5860-a616-4ae0-ae39-bacff6d90a61`                  |
+| **Resource Group ID**        | `myresoursegroup`                  |
+| **Collection ID**        | `cef46c2c-0a1b-409a-98bb-50b18a5eedda`                  |
 
 **💡 Tip:** Document grounding in SAP Build Joule Agent is a capability that uses a Retrieval-Augmented Generation (RAG) technique to provide users with accurate, specific answers based on an organization's internal business documents. Instead of relying only on a large language model's (LLM) general training data, Joule can reference a customer's private data, such as HR policies, manuals and FAQs. 
 This process enhances the reliability and relevance of Joule's responses by reducing inaccuracies and hallucinations that can occur when an LLM operates without specific context. 
