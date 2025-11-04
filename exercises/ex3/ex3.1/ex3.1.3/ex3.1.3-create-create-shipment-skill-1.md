@@ -47,7 +47,7 @@ This Joule Skill is used to create a shipment in the SAP Business Networks GTT S
 
 <br><br>7: Now we will configure an Output Parameter 
 * Click on the ‘Parameters’ tab and expand the section, ‘Skill Outputs’. Click on ‘Configure’ button to configure the skill outputs.
-<img width="1781" height="697" alt="image" src="https://github.com/user-attachments/assets/a52ba80b-898d-435d-967f-59db16ae9191" />
+<img width="1781" height="697" alt="image" src="https://github.com/stevenjacobson1/ASUG1-AI163/blob/335cb5d2197223397a65692ecc940d42d415dfab/exercises/ex3/ex3.1/ex3.1.3/images/3_1_3_parameter_skill_outputs.jpg" />
 
 * Click on the 'Add Ouput' button and add the following Outputs with Description.
   
