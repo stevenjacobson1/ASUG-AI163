@@ -83,7 +83,7 @@ We will first create a Shared Environment for you to deploy your package to.
 
 3. Click on the **Joule** tab, then click **Launch** to open the **Joule Assistant**.
 > [!NOTE]
-> If you do not see the Joule tab, it may be hidden due to yur screen resolution. Click the menu button to the right (3 vertical dots) to find the **Joule tab**.
+> If you do not see the Joule tab, it may be hidden due to your screen resolution. Click the menu button to the right (3 vertical dots) to find the **Joule tab**.
 
 4. Enter the same prompts used during private testing (see [Ex. 4.1](../ex4/ex4.1-test-joule-agent.md)) to validate the behavior.
 
