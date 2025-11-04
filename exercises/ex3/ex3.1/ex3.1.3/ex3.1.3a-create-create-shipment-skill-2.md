@@ -10,7 +10,7 @@
 
 
 > [!Note]
-  > - Replace the texts in between **<** **>** **(**'''i.e. <Skill Input-shipmentId>'''**)** with the skill input in the expression editor as done in previous sections. 
+  > - Replace the texts in between **<** **>** **(**i.e. <Skill Input-shipmentId>**)** with the skill input in the expression editor as done in previous sections. 
 
 
 | Field Name              | Mapped Path                 | Value |
