@@ -56,7 +56,7 @@ We will first create a Shared Environment for you to deploy your package to.
 
    | Destination | Value |
    |--------------|--------|
-   | **AICore** | `included-ai-core` |
+   | **AICore** | `AI-Core` |
    | **GetFromGTT** | `gttGetService` |
    | **PostToGTT** | `gttwriteservice` |
 
